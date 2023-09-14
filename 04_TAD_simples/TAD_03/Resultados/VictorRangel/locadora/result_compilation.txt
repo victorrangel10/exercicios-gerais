@@ -1,0 +1,14 @@
+Resultados/VictorRangel/locadora/filme.c: In function ‘criarFilme’:
+Resultados/VictorRangel/locadora/filme.c:6:11: error: assignment to expression with array type
+    6 |     f.nome=nome;
+      |           ^
+Resultados/VictorRangel/locadora/filme.c: In function ‘lerFilme’:
+Resultados/VictorRangel/locadora/filme.c:16:16: warning: format ‘%s’ expects argument of type ‘char *’, but argument 3 has type ‘char (*)[20]’ [-Wformat=]
+   16 |     scanf("%d,%s,%d,%d",&filme.codigo,&filme.nome,&filme.valor,&filme.qtdEstoque);
+      |               ~^                      ~~~~~~~~~~~
+      |                |                      |
+      |                char *                 char (*)[20]
+Resultados/VictorRangel/locadora/filme.c: At top level:
+Resultados/VictorRangel/locadora/filme.c:39:1: error: expected identifier or ‘(’ before ‘]’ token
+   39 | ]
+      | ^

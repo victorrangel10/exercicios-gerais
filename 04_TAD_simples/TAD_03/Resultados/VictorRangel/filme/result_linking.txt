@@ -1,0 +1,27 @@
+/usr/bin/ld: Resultados/VictorRangel/filme/locadora.o: in function `cadastrarFilmeLocadora':
+locadora.c:(.text+0x1df): undefined reference to `criarFilme'
+/usr/bin/ld: locadora.c:(.text+0x266): undefined reference to `obterCodigoFilme'
+/usr/bin/ld: locadora.c:(.text+0x2b5): undefined reference to `imprimirNomeFilme'
+/usr/bin/ld: Resultados/VictorRangel/filme/locadora.o: in function `alugarFilmesLocadora':
+locadora.c:(.text+0x55c): undefined reference to `ehMesmoCodigoFilme'
+/usr/bin/ld: locadora.c:(.text+0x5b7): undefined reference to `obterQtdEstoqueFilme'
+/usr/bin/ld: locadora.c:(.text+0x635): undefined reference to `alugarFilme'
+/usr/bin/ld: locadora.c:(.text+0x6b1): undefined reference to `obterValorFilme'
+/usr/bin/ld: locadora.c:(.text+0x70c): undefined reference to `obterCodigoFilme'
+/usr/bin/ld: locadora.c:(.text+0x775): undefined reference to `imprimirNomeFilme'
+/usr/bin/ld: Resultados/VictorRangel/filme/locadora.o: in function `devolverFilmesLocadora':
+locadora.c:(.text+0xa6b): undefined reference to `ehMesmoCodigoFilme'
+/usr/bin/ld: locadora.c:(.text+0xac6): undefined reference to `obterQtdAlugadaFilme'
+/usr/bin/ld: locadora.c:(.text+0xb44): undefined reference to `devolverFilme'
+/usr/bin/ld: locadora.c:(.text+0xbbc): undefined reference to `obterCodigoFilme'
+/usr/bin/ld: locadora.c:(.text+0xc25): undefined reference to `imprimirNomeFilme'
+/usr/bin/ld: locadora.c:(.text+0xc87): undefined reference to `obterValorFilme'
+/usr/bin/ld: locadora.c:(.text+0xced): undefined reference to `obterCodigoFilme'
+/usr/bin/ld: locadora.c:(.text+0xd56): undefined reference to `imprimirNomeFilme'
+/usr/bin/ld: Resultados/VictorRangel/filme/locadora.o: in function `ordenarFilmesLocadora':
+locadora.c:(.text+0x1042): undefined reference to `compararNomesFilmes'
+/usr/bin/ld: Resultados/VictorRangel/filme/locadora.o: in function `consultarEstoqueLocadora':
+locadora.c:(.text+0x1246): undefined reference to `obterCodigoFilme'
+/usr/bin/ld: locadora.c:(.text+0x12af): undefined reference to `imprimirNomeFilme'
+/usr/bin/ld: locadora.c:(.text+0x1302): undefined reference to `obterQtdEstoqueFilme'
+collect2: error: ld returned 1 exit status
