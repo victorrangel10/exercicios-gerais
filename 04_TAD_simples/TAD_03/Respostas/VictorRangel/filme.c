@@ -1,9 +1,10 @@
 #include <stdio.h>
 #include "filme.h"
+#include <string.h>
 
 tFilme criarFilme (char* nome, int codigo, int valor, int quantidade){
     tFilme f;
-    f.nome=nome;
+    strcpy(nome,f.nome);
     f.valor=valor;
     f.codigo=codigo;
     f.qtdEstoque=quantidade;
@@ -36,7 +37,7 @@ int obterQtdEstoqueFilme (tFilme filme){
 int obterQtdAlugadaFilme (tFilme filme){
     return filme.qtdAlugada;
 }
-]
+
 int ehMesmoCodigoFilme (tFilme filme, int codigo){
     if(codigo==filme.codigo) return 1;
     else return 0;
@@ -55,6 +56,5 @@ tFilme devolverFilme (tFilme filme){
 }
 
 int compararNomesFilmes (tFilme filme1, tFilme filme2){
-    if(filme1.nome == filme2.nome) return 1;
-    else return 0;
+    return strcmp(filme1.nome,filme2.nome);
 }
