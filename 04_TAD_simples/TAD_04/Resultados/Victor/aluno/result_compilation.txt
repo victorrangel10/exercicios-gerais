@@ -1,0 +1,7 @@
+Resultados/Victor/aluno/aluno.c: In function ‘LeAluno’:
+Resultados/Victor/aluno/aluno.c:17:11: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[50]’ [-Wformat=]
+   17 |   scanf("%s", &al.nome);
+      |          ~^   ~~~~~~~~
+      |           |   |
+      |           |   char (*)[50]
+      |           char *
