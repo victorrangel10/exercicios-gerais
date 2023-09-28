@@ -1,4 +1,0 @@
-Resultados/VictorRangel/vetor/vetor.c: In function ‘OrdeneCrescente’:
-Resultados/VictorRangel/vetor/vetor.c:43:21: warning: unused variable ‘aux’ [-Wunused-variable]
-   43 |                 int aux=vet[j];
-      |                     ^~~

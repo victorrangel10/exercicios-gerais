@@ -76,21 +76,21 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Pasta main / Caso 4:
  - Resultado para o saida.txt: Ok!
  - Pasta vetor / Caso 1:
- - Resultado para o saida.txt: Incorreto!
+ - Resultado para o saida.txt: Ok!
  - Pasta vetor / Caso 2:
- - Resultado para o saida.txt: Incorreto!
+ - Resultado para o saida.txt: Ok!
  - Pasta vetor / Caso 3:
- - Resultado para o saida.txt: Incorreto!
+ - Resultado para o saida.txt: Ok!
  - Pasta vetor / Caso 4:
- - Resultado para o saida.txt: Incorreto!
+ - Resultado para o saida.txt: Ok!
  - Pasta completo / Caso 1:
- - Resultado para o saida.txt: Incorreto!
+ - Resultado para o saida.txt: Ok!
  - Pasta completo / Caso 2:
- - Resultado para o saida.txt: Incorreto!
+ - Resultado para o saida.txt: Ok!
  - Pasta completo / Caso 3:
- - Resultado para o saida.txt: Incorreto!
+ - Resultado para o saida.txt: Ok!
  - Pasta completo / Caso 4:
- - Resultado para o saida.txt: Incorreto!
+ - Resultado para o saida.txt: Ok!
 
 #######################################
 RESULTADOS FINAIS
@@ -102,11 +102,11 @@ Nome 0: VictorRangel
  - Compilações Corretas: 6 de 6 / Nota 10.00
  - Linkagens Corretas: 3 de 3 / Nota 10.00
  - Resultados Corretos main: 4 de 4 / Nota 10.00
- - Resultados Corretos vetor: 0 de 4 / Nota 0.00
- - Resultados Corretos completo: 0 de 4 / Nota 0.00
- - Soma das notas do VictorRangel: 40.000
+ - Resultados Corretos vetor: 4 de 4 / Nota 10.00
+ - Resultados Corretos completo: 4 de 4 / Nota 10.00
+ - Soma das notas do VictorRangel: 60.000
  - Campos Considerados: 6
- - Média do VictorRangel: 6.66
+ - Média do VictorRangel: 10.00
 
 ----------------------------------------------------------------------------
 
