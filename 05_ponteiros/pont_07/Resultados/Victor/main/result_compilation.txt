@@ -1,0 +1,23 @@
+Resultados/Victor/main/evento.c: In function ‘cadastrarEvento’:
+Resultados/Victor/main/evento.c:12:6: warning: unused variable ‘nome’ [-Wunused-variable]
+   12 | char nome[50];
+      |      ^~~~
+Resultados/Victor/main/evento.c: In function ‘trocarIndicesEventos’:
+Resultados/Victor/main/evento.c:58:16: warning: comparison between pointer and integer
+   58 |     if (indiceA>=*numEventos ||indiceB>=*numEventos )
+      |                ^~
+Resultados/Victor/main/evento.c:58:39: warning: comparison between pointer and integer
+   58 |     if (indiceA>=*numEventos ||indiceB>=*numEventos )
+      |                                       ^~
+Resultados/Victor/main/evento.c:64:22: warning: ‘aux’ may be used uninitialized [-Wmaybe-uninitialized]
+   64 |     eventos[*indiceA]=aux;
+      |     ~~~~~~~~~~~~~~~~~^~~~
+Resultados/Victor/main/evento.c:56:12: note: ‘aux’ declared here
+   56 |     Evento aux;
+      |            ^~~
+Resultados/Victor/main/evento.c:66:22: warning: ‘aux’ may be used uninitialized [-Wmaybe-uninitialized]
+   66 |     eventos[*indiceB]=aux;
+      |     ~~~~~~~~~~~~~~~~~^~~~
+Resultados/Victor/main/evento.c:56:12: note: ‘aux’ declared here
+   56 |     Evento aux;
+      |            ^~~
