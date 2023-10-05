@@ -1,0 +1,115 @@
+Ignorando o Valgrind
+Rodando o script do Aluno - Arquivos header necessários do professor existem na pasta Includes
+ - Arquivos objetos necessários do professor existem na pasta Gabarito-obj.
+#######################################
+ALUNO: Victor
+#######################################
+CRIANDO O DIRETÓRIO DE RESULTADO PARA Victor:
+ - Diretório Resultados/Victor criado com sucesso!
+ - Diretório Resultados/Victor/calculadora criado com sucesso!
+ - Diretório Resultados/Victor/main criado com sucesso!
+ - Diretório Resultados/Victor/completo criado com sucesso!
+ - Arquivos criados: ok!
+
+CHECKANDO OS ARQUIVOS DO ALUNO:
+ - Arquivo esperado 'Respostas/Victor/calculadora.c' encontrado!
+ - Arquivo esperado 'Respostas/Victor/calculadora.h' encontrado!
+ - Arquivo esperado 'Respostas/Victor/main.c' encontrado!
+ - Arquivos esperados enviados: Ok!
+
+COPIANDO OS ARQUIVOS PARA A PASTA DE RESULTADO DO ALUNO:
+ - Pasta calculadora:
+ - Copiando os Casos de teste para a pasta Resultados/Victor/calculadora
+ - Copiando os 'Respostas/Victor/*.h' do aluno para a pasta Resultados/Victor/calculadora
+ - Copiando os 'Includes/*.h' do professor para a pasta Resultados/Victor/calculadora
+ - Copiando os 'Respostas/Victor/*.c' do aluno para a pasta Resultados/Victor/calculadora
+ - Pasta main:
+ - Copiando os Casos de teste para a pasta Resultados/Victor/main
+ - Copiando os 'Respostas/Victor/*.h' do aluno para a pasta Resultados/Victor/main
+ - Copiando os 'Includes/*.h' do professor para a pasta Resultados/Victor/main
+ - Copiando os 'Respostas/Victor/*.c' do aluno para a pasta Resultados/Victor/main
+ - Pasta completo:
+ - Copiando os Casos de teste para a pasta Resultados/Victor/completo
+ - Copiando os 'Respostas/Victor/*.h' do aluno para a pasta Resultados/Victor/completo
+ - Copiando os 'Respostas/Victor/*.c' do aluno para a pasta Resultados/Victor/completo
+ - Arquivos copiados: ok!
+
+COMPILANDO OS ARQUIVOS NA PASTA DE RESULTADO DO ALUNO:
+ - Pasta calculadora:
+ - Compilando o arquivo calculadora.c do aluno, gerando o calculadora.o
+ - Compilando o arquivo main.c do aluno, gerando o main.o
+ - Arquivo de output gerado: Resultados/Victor/calculadora/result_compilation.txt.
+ - Pasta main:
+ - Compilando o arquivo calculadora.c do aluno, gerando o calculadora.o
+ - Compilando o arquivo main.c do aluno, gerando o main.o
+ - Arquivo de output gerado: Resultados/Victor/main/result_compilation.txt.
+ - Pasta completo:
+ - Compilando o arquivo calculadora.c do aluno, gerando o calculadora.o
+ - Compilando o arquivo main.c do aluno, gerando o main.o
+ - Arquivo de output gerado: Resultados/Victor/completo/result_compilation.txt.
+ - Copiando os arquivos objetos do professor para cada subpasta do Resultado do Victor:
+ - Copiando o Gabarito-obj/calculadora.o para a pasta Resultados/Victor/main
+ - Copiando o Gabarito-obj/main.o para a pasta Resultados/Victor/calculadora
+ - Arquivos Compilados: ok!
+
+LINKANDO OS ARQUIVOS COMPILADOS:
+ - Pasta calculadora:
+ - Gerando o binário prog linkando com o(s) arquivo(s) calculadora/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/Victor/calculadora/result_linking.txt
+ - Pasta main:
+ - Gerando o binário prog linkando com o(s) arquivo(s) main/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/Victor/main/result_linking.txt
+ - Pasta completo:
+ - Gerando o binário prog linkando com o(s) arquivo(s) completo/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/Victor/completo/result_linking.txt
+
+EXECUTANDO O VALGRIND EM CADA CASO:
+ - Pasta calculadora / Caso 1:
+ - Resultado para o saida.txt: Ok!
+ - Pasta calculadora / Caso 2:
+ - Resultado para o saida.txt: Ok!
+ - Pasta calculadora / Caso 3:
+ - Resultado para o saida.txt: Ok!
+ - Pasta calculadora / Caso 4:
+ - Resultado para o saida.txt: Ok!
+ - Pasta main / Caso 1:
+ - Resultado para o saida.txt: Ok!
+ - Pasta main / Caso 2:
+ - Resultado para o saida.txt: Ok!
+ - Pasta main / Caso 3:
+ - Resultado para o saida.txt: Ok!
+ - Pasta main / Caso 4:
+ - Resultado para o saida.txt: Ok!
+ - Pasta completo / Caso 1:
+ - Resultado para o saida.txt: Ok!
+ - Pasta completo / Caso 2:
+ - Resultado para o saida.txt: Ok!
+ - Pasta completo / Caso 3:
+ - Resultado para o saida.txt: Ok!
+ - Pasta completo / Caso 4:
+ - Resultado para o saida.txt: Ok!
+
+#######################################
+RESULTADOS FINAIS
+#######################################
+
+----------------------------------------------------------------------------
+Nome 0: Victor
+ - Arquivos Corretos: 3 de 3 / Nota 10.00
+ - Compilações Corretas: 6 de 6 / Nota 10.00
+ - Linkagens Corretas: 3 de 3 / Nota 10.00
+ - Resultados Corretos calculadora: 4 de 4 / Nota 10.00
+ - Resultados Corretos main: 4 de 4 / Nota 10.00
+ - Resultados Corretos completo: 4 de 4 / Nota 10.00
+ - Soma das notas do Victor: 60.000
+ - Campos Considerados: 6
+ - Média do Victor: 10.00
+
+----------------------------------------------------------------------------
+
+Arquivo CSV Resultado.csv com os resultados finais foi gerado na pasta raíz!
+
+
