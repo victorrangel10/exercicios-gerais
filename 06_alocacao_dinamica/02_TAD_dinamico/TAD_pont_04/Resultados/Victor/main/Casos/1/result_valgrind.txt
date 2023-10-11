@@ -1,0 +1,50 @@
+==78673== Memcheck, a memory error detector
+==78673== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==78673== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==78673== Command: Resultados/Victor/main/prog Resultados/Victor/main/Casos/1
+==78673== Parent PID: 78672
+==78673== 
+==78673== Invalid write of size 8
+==78673==    at 0x109623: main (in /home/liep/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_04/Resultados/Victor/main/prog)
+==78673==  Address 0x4a8e190 is 0 bytes inside a block of size 1 alloc'd
+==78673==    at 0x48487A9: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==78673==    by 0x1095F2: main (in /home/liep/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_04/Resultados/Victor/main/prog)
+==78673== 
+==78673== Use of uninitialised value of size 8
+==78673==    at 0x1093D7: ImprimeAluno (aluno.c:75)
+==78673==    by 0x1094EE: OrdenaAprovados (in /home/liep/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_04/Resultados/Victor/main/prog)
+==78673==    by 0x109636: main (in /home/liep/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_04/Resultados/Victor/main/prog)
+==78673== 
+==78673== Invalid read of size 8
+==78673==    at 0x1093D7: ImprimeAluno (aluno.c:75)
+==78673==    by 0x1094EE: OrdenaAprovados (in /home/liep/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_04/Resultados/Victor/main/prog)
+==78673==    by 0x109636: main (in /home/liep/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_04/Resultados/Victor/main/prog)
+==78673==  Address 0xe0 is not stack'd, malloc'd or (recently) free'd
+==78673== 
+==78673== 
+==78673== Process terminating with default action of signal 11 (SIGSEGV)
+==78673==  Access not within mapped region at address 0xE0
+==78673==    at 0x1093D7: ImprimeAluno (aluno.c:75)
+==78673==    by 0x1094EE: OrdenaAprovados (in /home/liep/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_04/Resultados/Victor/main/prog)
+==78673==    by 0x109636: main (in /home/liep/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_04/Resultados/Victor/main/prog)
+==78673==  If you believe this happened as a result of a stack
+==78673==  overflow in your program's main thread (unlikely but
+==78673==  possible), you can try to increase the size of the
+==78673==  main thread stack using the --main-stacksize= flag.
+==78673==  The main thread stack size used in this run was 8388608.
+==78673== 
+==78673== HEAP SUMMARY:
+==78673==     in use at exit: 8,318 bytes in 10 blocks
+==78673==   total heap usage: 11 allocs, 1 frees, 8,319 bytes allocated
+==78673== 
+==78673== LEAK SUMMARY:
+==78673==    definitely lost: 0 bytes in 0 blocks
+==78673==    indirectly lost: 0 bytes in 0 blocks
+==78673==      possibly lost: 0 bytes in 0 blocks
+==78673==    still reachable: 8,318 bytes in 10 blocks
+==78673==         suppressed: 0 bytes in 0 blocks
+==78673== Reachable blocks (those to which a pointer was found) are not shown.
+==78673== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==78673== 
+==78673== For lists of detected and suppressed errors, rerun with: -s
+==78673== ERROR SUMMARY: 6 errors from 3 contexts (suppressed: 0 from 0)
