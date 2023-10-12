@@ -1,50 +1,15 @@
-==79007== Memcheck, a memory error detector
-==79007== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
-==79007== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
-==79007== Command: Resultados/Victor/main/prog Resultados/Victor/main/Casos/3
-==79007== Parent PID: 79006
-==79007== 
-==79007== Invalid write of size 8
-==79007==    at 0x109623: main (in /home/liep/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_04/Resultados/Victor/main/prog)
-==79007==  Address 0x4a8e1c0 is 0 bytes inside a block of size 1 alloc'd
-==79007==    at 0x48487A9: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
-==79007==    by 0x1095F2: main (in /home/liep/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_04/Resultados/Victor/main/prog)
-==79007== 
-==79007== Use of uninitialised value of size 8
-==79007==    at 0x1093D7: ImprimeAluno (aluno.c:75)
-==79007==    by 0x1094EE: OrdenaAprovados (in /home/liep/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_04/Resultados/Victor/main/prog)
-==79007==    by 0x109636: main (in /home/liep/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_04/Resultados/Victor/main/prog)
-==79007== 
-==79007== Invalid read of size 8
-==79007==    at 0x1093D7: ImprimeAluno (aluno.c:75)
-==79007==    by 0x1094EE: OrdenaAprovados (in /home/liep/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_04/Resultados/Victor/main/prog)
-==79007==    by 0x109636: main (in /home/liep/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_04/Resultados/Victor/main/prog)
-==79007==  Address 0x10 is not stack'd, malloc'd or (recently) free'd
-==79007== 
-==79007== 
-==79007== Process terminating with default action of signal 11 (SIGSEGV)
-==79007==  Access not within mapped region at address 0x10
-==79007==    at 0x1093D7: ImprimeAluno (aluno.c:75)
-==79007==    by 0x1094EE: OrdenaAprovados (in /home/liep/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_04/Resultados/Victor/main/prog)
-==79007==    by 0x109636: main (in /home/liep/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_04/Resultados/Victor/main/prog)
-==79007==  If you believe this happened as a result of a stack
-==79007==  overflow in your program's main thread (unlikely but
-==79007==  possible), you can try to increase the size of the
-==79007==  main thread stack using the --main-stacksize= flag.
-==79007==  The main thread stack size used in this run was 8388608.
-==79007== 
-==79007== HEAP SUMMARY:
-==79007==     in use at exit: 8,367 bytes in 10 blocks
-==79007==   total heap usage: 11 allocs, 1 frees, 8,368 bytes allocated
-==79007== 
-==79007== LEAK SUMMARY:
-==79007==    definitely lost: 0 bytes in 0 blocks
-==79007==    indirectly lost: 0 bytes in 0 blocks
-==79007==      possibly lost: 0 bytes in 0 blocks
-==79007==    still reachable: 8,367 bytes in 10 blocks
-==79007==         suppressed: 0 bytes in 0 blocks
-==79007== Reachable blocks (those to which a pointer was found) are not shown.
-==79007== To see them, rerun with: --leak-check=full --show-leak-kinds=all
-==79007== 
-==79007== For lists of detected and suppressed errors, rerun with: -s
-==79007== ERROR SUMMARY: 6 errors from 3 contexts (suppressed: 0 from 0)
+==52307== Memcheck, a memory error detector
+==52307== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==52307== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==52307== Command: Resultados/Victor/main/prog Resultados/Victor/main/Casos/3
+==52307== Parent PID: 52306
+==52307== 
+==52307== 
+==52307== HEAP SUMMARY:
+==52307==     in use at exit: 0 bytes in 0 blocks
+==52307==   total heap usage: 23 allocs, 23 frees, 8,586 bytes allocated
+==52307== 
+==52307== All heap blocks were freed -- no leaks are possible
+==52307== 
+==52307== For lists of detected and suppressed errors, rerun with: -s
+==52307== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

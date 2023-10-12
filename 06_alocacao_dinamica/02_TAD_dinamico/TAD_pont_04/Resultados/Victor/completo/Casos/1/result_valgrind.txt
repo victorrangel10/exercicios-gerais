@@ -1,50 +1,15 @@
-==79260== Memcheck, a memory error detector
-==79260== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
-==79260== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
-==79260== Command: Resultados/Victor/completo/prog Resultados/Victor/completo/Casos/1
-==79260== Parent PID: 79259
-==79260== 
-==79260== Invalid write of size 8
-==79260==    at 0x1096C0: main (in /home/liep/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_04/Resultados/Victor/completo/prog)
-==79260==  Address 0x4a8e3c0 is 0 bytes inside a block of size 1 alloc'd
-==79260==    at 0x48487A9: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
-==79260==    by 0x10968F: main (in /home/liep/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_04/Resultados/Victor/completo/prog)
-==79260== 
-==79260== Use of uninitialised value of size 8
-==79260==    at 0x109474: ImprimeAluno (in /home/liep/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_04/Resultados/Victor/completo/prog)
-==79260==    by 0x10958B: OrdenaAprovados (in /home/liep/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_04/Resultados/Victor/completo/prog)
-==79260==    by 0x1096D3: main (in /home/liep/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_04/Resultados/Victor/completo/prog)
-==79260== 
-==79260== Invalid read of size 8
-==79260==    at 0x109474: ImprimeAluno (in /home/liep/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_04/Resultados/Victor/completo/prog)
-==79260==    by 0x10958B: OrdenaAprovados (in /home/liep/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_04/Resultados/Victor/completo/prog)
-==79260==    by 0x1096D3: main (in /home/liep/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_04/Resultados/Victor/completo/prog)
-==79260==  Address 0xe0 is not stack'd, malloc'd or (recently) free'd
-==79260== 
-==79260== 
-==79260== Process terminating with default action of signal 11 (SIGSEGV)
-==79260==  Access not within mapped region at address 0xE0
-==79260==    at 0x109474: ImprimeAluno (in /home/liep/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_04/Resultados/Victor/completo/prog)
-==79260==    by 0x10958B: OrdenaAprovados (in /home/liep/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_04/Resultados/Victor/completo/prog)
-==79260==    by 0x1096D3: main (in /home/liep/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_04/Resultados/Victor/completo/prog)
-==79260==  If you believe this happened as a result of a stack
-==79260==  overflow in your program's main thread (unlikely but
-==79260==  possible), you can try to increase the size of the
-==79260==  main thread stack using the --main-stacksize= flag.
-==79260==  The main thread stack size used in this run was 8388608.
-==79260== 
-==79260== HEAP SUMMARY:
-==79260==     in use at exit: 8,318 bytes in 10 blocks
-==79260==   total heap usage: 28 allocs, 18 frees, 8,378 bytes allocated
-==79260== 
-==79260== LEAK SUMMARY:
-==79260==    definitely lost: 0 bytes in 0 blocks
-==79260==    indirectly lost: 0 bytes in 0 blocks
-==79260==      possibly lost: 0 bytes in 0 blocks
-==79260==    still reachable: 8,318 bytes in 10 blocks
-==79260==         suppressed: 0 bytes in 0 blocks
-==79260== Reachable blocks (those to which a pointer was found) are not shown.
-==79260== To see them, rerun with: --leak-check=full --show-leak-kinds=all
-==79260== 
-==79260== For lists of detected and suppressed errors, rerun with: -s
-==79260== ERROR SUMMARY: 6 errors from 3 contexts (suppressed: 0 from 0)
+==52418== Memcheck, a memory error detector
+==52418== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==52418== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==52418== Command: Resultados/Victor/completo/prog Resultados/Victor/completo/Casos/1
+==52418== Parent PID: 52417
+==52418== 
+==52418== 
+==52418== HEAP SUMMARY:
+==52418==     in use at exit: 0 bytes in 0 blocks
+==52418==   total heap usage: 33 allocs, 33 frees, 8,420 bytes allocated
+==52418== 
+==52418== All heap blocks were freed -- no leaks are possible
+==52418== 
+==52418== For lists of detected and suppressed errors, rerun with: -s
+==52418== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

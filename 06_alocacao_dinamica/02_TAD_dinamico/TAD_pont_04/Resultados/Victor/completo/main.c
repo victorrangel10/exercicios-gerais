@@ -2,59 +2,60 @@
 #include <stdlib.h>
 #include "aluno.h"
 
-void OrdenaAprovados(tAluno ** aprovados,int tam){
-
-for (int i = 0; i < tam; i++)
-{
-   for (int j= i+1; j < tam-1; i++)
-   {
-        if (ComparaMatricula(aprovados[j],aprovados[i]))
+void OrdenaAlunos(tAluno** lista,int tam){
+    for (int i = 0; i < tam; i++)
+    {
+        //printf("loop %d\n",i);
+        for (int j = i+1; j < tam-1; j++)
         {
-            tAluno* aux=aprovados[j];
-            aprovados[j]=aprovados[i];
-            aprovados[i] = aux;
-        }
-  
-   }
-   for ( i = 0; i < tam; i++)
-   {
-    ImprimeAluno(aprovados[i]);
-   }
-   
-   
-}
 
+        if (ComparaMatricula(lista[i],lista[j])==-1)
+        {
+            tAluno * aux = lista[i];
+            lista[i]=lista[j];
+            lista[j]=aux;
+            //printf("troquei %d por %d\n",lista[i]->matricula,lista[j]->matricula);
+        }
+        
+        }
+        
+    }
+    
 }
 
 int main(){
     int nAlunos;
     scanf("%d\n",&nAlunos);
     tAluno** listaAlunos=malloc(nAlunos*sizeof(tAluno *));
-    tAluno** aprovados=NULL;
-    int tam=0;
+   
 
     for (int i = 0; i < nAlunos; i++)
     {
-        listaAlunos[i]=CriaAluno();
+        *(listaAlunos+i)=CriaAluno();
         LeAluno(listaAlunos[i]);
-      //     printf("li aluno %s\n",listaAlunos[i]->nome);
+    }
+    for (int i = 0; i < nAlunos; i++)
+    {
+       // printf("%s\n",listaAlunos[i]->nome);
+       // printf("li assim\n");
+    }
+    
+    OrdenaAlunos(listaAlunos,nAlunos);
 
+    for (int i = nAlunos-1; i >=0; i--)
+    {
+    
         if (VerificaAprovacao(listaAlunos[i]))
         {
-            tam++;
-            aprovados=realloc(aprovados,tam);
-            aprovados[tam-1]=listaAlunos[i];
+            ImprimeAluno(listaAlunos[i]);
            
         }
-         OrdenaAprovados(aprovados,tam);
-    }
-
-    for (int i = 0; i < nAlunos; i++)
-    {
         ApagaAluno(listaAlunos[i]);
     }
+
+
+    
     free(listaAlunos);
-    free(aprovados);
 
     return 0;
 }

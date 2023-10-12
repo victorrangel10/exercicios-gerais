@@ -7,6 +7,7 @@ char* LeString(){
     int carac;
     int tamanho=0;
     char* nome=NULL;
+    scanf("%*[^a-zA-Z]");
 while ((carac=getchar())!='\n')
 {
     tamanho++;
@@ -38,8 +39,17 @@ void ApagaAluno(tAluno *aluno){
 
 void LeAluno(tAluno *aluno){
     aluno->nome=LeString();
-    scanf("\n %d %d %d %d\n",&aluno->matricula,&aluno->n1,&aluno->n2,&aluno->n3);
-  //  printf("%s,%d, %d, %d ,%d ",aluno->nome,aluno->matricula,aluno->n1,aluno->n2,aluno->n3);
+    scanf("%d",&aluno->matricula);
+   // printf("li %d\n",aluno->matricula);
+    scanf("%d",&aluno->n1);
+   // printf("li %d\n",aluno->n1);
+     scanf("%d",&aluno->n2);
+
+     // printf("li %d\n",aluno->n2);
+      scanf("%d",&aluno->n3);
+       //printf("li %d\n",aluno->n3);
+
+    //printf("%s,%d, %d, %d ,%d \n",aluno->nome,aluno->matricula,aluno->n1,aluno->n2,aluno->n3);
 }
 
 
