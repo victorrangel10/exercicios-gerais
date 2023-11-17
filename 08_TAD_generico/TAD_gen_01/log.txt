@@ -1,0 +1,133 @@
+Rodando o script do Aluno - Arquivos objetos necessários do professor existem na pasta Gabarito-obj.
+#######################################
+ALUNO: Victor
+#######################################
+CRIANDO O DIRETÓRIO DE RESULTADO PARA Victor:
+ - Diretório Resultados/Victor criado com sucesso!
+ - Diretório Resultados/Victor/main criado com sucesso!
+ - Diretório Resultados/Victor/tadgen criado com sucesso!
+ - Diretório Resultados/Victor/completo criado com sucesso!
+ - Arquivos criados: ok!
+
+CHECKANDO OS ARQUIVOS DO ALUNO:
+ - Arquivo esperado 'Respostas/Victor/main.c' não encontrado!
+ - Arquivo esperado 'Respostas/Victor/tadgen.c' encontrado!
+ - Arquivos esperados enviados: Faltando!
+
+COPIANDO OS ARQUIVOS PARA A PASTA DE RESULTADO DO ALUNO:
+ - Pasta main:
+ - Copiando os Casos de teste para a pasta Resultados/Victor/main
+ - Copiando os 'Respostas/Victor/*.h' do aluno para a pasta Resultados/Victor/main
+ - Copiando os 'Respostas/Victor/*.c' do aluno para a pasta Resultados/Victor/main
+ - Pasta tadgen:
+ - Copiando os Casos de teste para a pasta Resultados/Victor/tadgen
+ - Copiando os 'Respostas/Victor/*.h' do aluno para a pasta Resultados/Victor/tadgen
+ - Copiando os 'Respostas/Victor/*.c' do aluno para a pasta Resultados/Victor/tadgen
+ - Pasta completo:
+ - Copiando os Casos de teste para a pasta Resultados/Victor/completo
+ - Copiando os 'Respostas/Victor/*.h' do aluno para a pasta Resultados/Victor/completo
+ - Copiando os 'Respostas/Victor/*.c' do aluno para a pasta Resultados/Victor/completo
+ - Arquivos copiados: ok!
+
+COMPILANDO OS ARQUIVOS NA PASTA DE RESULTADO DO ALUNO:
+ - Pasta main:
+ - Compilando o arquivo main.c do aluno, gerando o main.o
+ - Erro de compilação! Verifique se o arquivo Resultados/Victor/main/main.c está correto.
+ - Compilando o arquivo tadgen.c do aluno, gerando o tadgen.o
+ - Erro de compilação! Verifique se o arquivo Resultados/Victor/main/tadgen.c está correto.
+ - Arquivo de output gerado: Resultados/Victor/main/result_compilation.txt.
+ - Pasta tadgen:
+ - Compilando o arquivo main.c do aluno, gerando o main.o
+ - Erro de compilação! Verifique se o arquivo Resultados/Victor/tadgen/main.c está correto.
+ - Compilando o arquivo tadgen.c do aluno, gerando o tadgen.o
+ - Erro de compilação! Verifique se o arquivo Resultados/Victor/tadgen/tadgen.c está correto.
+ - Arquivo de output gerado: Resultados/Victor/tadgen/result_compilation.txt.
+ - Pasta completo:
+ - Compilando o arquivo main.c do aluno, gerando o main.o
+ - Erro de compilação! Verifique se o arquivo Resultados/Victor/completo/main.c está correto.
+ - Compilando o arquivo tadgen.c do aluno, gerando o tadgen.o
+ - Erro de compilação! Verifique se o arquivo Resultados/Victor/completo/tadgen.c está correto.
+ - Arquivo de output gerado: Resultados/Victor/completo/result_compilation.txt.
+ - Arquivos Compilados: Erro!: 6 arquivos com erros de compilacao.
+ - Copiando os arquivos objetos do professor para cada subpasta do Resultado do Victor:
+ - Copiando o Gabarito-obj/main.o para a pasta Resultados/Victor/tadgen
+ - Copiando o Gabarito-obj/tadgen.o para a pasta Resultados/Victor/main
+ - Arquivos Compilados: ok!
+
+LINKANDO OS ARQUIVOS COMPILADOS:
+ - Pasta main:
+ - Gerando o binário prog linkando com o(s) arquivo(s) main/*.o
+ - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivo de output gerado: Resultados/Victor/main/result_linking.txt
+ - Pasta tadgen:
+ - Gerando o binário prog linkando com o(s) arquivo(s) tadgen/*.o
+ - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivo de output gerado: Resultados/Victor/tadgen/result_linking.txt
+ - Pasta completo:
+ - Gerando o binário prog linkando com o(s) arquivo(s) completo/*.o
+ - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivo de output gerado: Resultados/Victor/completo/result_linking.txt
+ - Arquivos Linkados: Erro! 3 arquivos com erros de linkagem.
+
+EXECUTANDO O VALGRIND EM CADA CASO:
+ - Pasta main / Caso 1:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta main / Caso 2:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta main / Caso 3:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta main / Caso 4:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta tadgen / Caso 1:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta tadgen / Caso 2:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta tadgen / Caso 3:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta tadgen / Caso 4:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta completo / Caso 1:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta completo / Caso 2:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta completo / Caso 3:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta completo / Caso 4:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto!
+
+#######################################
+RESULTADOS FINAIS
+#######################################
+
+----------------------------------------------------------------------------
+Nome 0: Victor
+ - Arquivos Corretos: 1 de 2 / Nota 5.00
+ - Compilações Corretas: 0 de 6 / Nota 0.00
+ - Linkagens Corretas: 0 de 3 / Nota 0.00
+ - Resultados Corretos main: 0 de 4 / Nota 0.00
+ - Valgrinds Corretos main: 0 de 4 / Nota 0.00
+ - Resultados Corretos tadgen: 0 de 4 / Nota 0.00
+ - Valgrinds Corretos tadgen: 0 de 4 / Nota 0.00
+ - Resultados Corretos completo: 0 de 4 / Nota 0.00
+ - Valgrinds Corretos completo: 0 de 4 / Nota 0.00
+ - Soma das notas do Victor: 5.000
+ - Campos Considerados: 9
+ - Média do Victor: 0.55
+
+----------------------------------------------------------------------------
+
+Arquivo CSV Resultado.csv com os resultados finais foi gerado na pasta raíz!
+
+

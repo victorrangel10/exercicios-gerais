@@ -1,0 +1,6 @@
+/usr/bin/ld: Resultados/Victor/tadgen/main.o: in function `main':
+main.c:(.text+0x6d): undefined reference to `CriaGenerico'
+/usr/bin/ld: main.c:(.text+0x7d): undefined reference to `LeGenerico'
+/usr/bin/ld: main.c:(.text+0x89): undefined reference to `ImprimeGenerico'
+/usr/bin/ld: main.c:(.text+0x95): undefined reference to `DestroiGenerico'
+collect2: error: ld returned 1 exit status

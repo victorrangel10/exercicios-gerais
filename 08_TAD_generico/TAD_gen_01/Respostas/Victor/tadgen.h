@@ -9,7 +9,8 @@ typedef enum {
 typedef struct generic tGeneric;
 
 /**
- * @brief Cria uma estrutura genérica e dinâmica que pode armazenar tanto inteiros quanto floats
+ * @brief Cria uma estrutura genérica e dinâmica que pode armazenar tanto inteiros
+ *  quanto floats
  *
  * @param type - Tipo do vetor genérico. Segue o Enum definido acima.
  * @param numElem A quantidade de elementos que serão armazenados no vetor

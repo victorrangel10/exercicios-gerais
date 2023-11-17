@@ -1,0 +1,61 @@
+==150231== Memcheck, a memory error detector
+==150231== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==150231== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==150231== Command: Resultados/Victor/completo/prog Resultados/Victor/completo/Casos/3
+==150231== Parent PID: 150230
+==150231== 
+==150231== Invalid read of size 4
+==150231==    at 0x109760: ImprimeConta (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/completo/prog)
+==150231==    by 0x109693: ImprimeRelatorioBanco (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/completo/prog)
+==150231==    by 0x109931: main (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/completo/prog)
+==150231==  Address 0x4a8e130 is 8 bytes after a block of size 8 alloc'd
+==150231==    at 0x484DA83: calloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==150231==    by 0x1096C6: CriaConta (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/completo/prog)
+==150231==    by 0x109359: AbreContaBanco (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/completo/prog)
+==150231==    by 0x1098F9: main (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/completo/prog)
+==150231== 
+==150231== Invalid read of size 8
+==150231==    at 0x109797: ImprimeConta (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/completo/prog)
+==150231==    by 0x109693: ImprimeRelatorioBanco (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/completo/prog)
+==150231==    by 0x109931: main (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/completo/prog)
+==150231==  Address 0x4a8e128 is 0 bytes after a block of size 8 alloc'd
+==150231==    at 0x484DA83: calloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==150231==    by 0x1096C6: CriaConta (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/completo/prog)
+==150231==    by 0x109359: AbreContaBanco (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/completo/prog)
+==150231==    by 0x1098F9: main (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/completo/prog)
+==150231== 
+==150231== Invalid read of size 4
+==150231==    at 0x109AAB: ImprimeUsuario (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/completo/prog)
+==150231==    by 0x1097A2: ImprimeConta (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/completo/prog)
+==150231==    by 0x109693: ImprimeRelatorioBanco (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/completo/prog)
+==150231==    by 0x109931: main (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/completo/prog)
+==150231==  Address 0x8 is not stack'd, malloc'd or (recently) free'd
+==150231== 
+==150231== 
+==150231== Process terminating with default action of signal 11 (SIGSEGV)
+==150231==  Access not within mapped region at address 0x8
+==150231==    at 0x109AAB: ImprimeUsuario (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/completo/prog)
+==150231==    by 0x1097A2: ImprimeConta (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/completo/prog)
+==150231==    by 0x109693: ImprimeRelatorioBanco (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/completo/prog)
+==150231==    by 0x109931: main (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/completo/prog)
+==150231==  If you believe this happened as a result of a stack
+==150231==  overflow in your program's main thread (unlikely but
+==150231==  possible), you can try to increase the size of the
+==150231==  main thread stack using the --main-stacksize= flag.
+==150231==  The main thread stack size used in this run was 8388608.
+==150231== 
+==150231== HEAP SUMMARY:
+==150231==     in use at exit: 8,288 bytes in 9 blocks
+==150231==   total heap usage: 13 allocs, 4 frees, 8,368 bytes allocated
+==150231== 
+==150231== LEAK SUMMARY:
+==150231==    definitely lost: 0 bytes in 0 blocks
+==150231==    indirectly lost: 0 bytes in 0 blocks
+==150231==      possibly lost: 0 bytes in 0 blocks
+==150231==    still reachable: 8,288 bytes in 9 blocks
+==150231==         suppressed: 0 bytes in 0 blocks
+==150231== Reachable blocks (those to which a pointer was found) are not shown.
+==150231== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==150231== 
+==150231== For lists of detected and suppressed errors, rerun with: -s
+==150231== ERROR SUMMARY: 3 errors from 3 contexts (suppressed: 0 from 0)

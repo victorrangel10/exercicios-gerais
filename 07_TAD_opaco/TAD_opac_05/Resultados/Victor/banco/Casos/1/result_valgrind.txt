@@ -1,0 +1,342 @@
+==143845== Memcheck, a memory error detector
+==143845== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==143845== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==143845== Command: Resultados/Victor/banco/prog Resultados/Victor/banco/Casos/1
+==143845== Parent PID: 143844
+==143845== 
+==143845== Conditional jump or move depends on uninitialised value(s)
+==143845==    at 0x10948D: DepositoContaBanco (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==    by 0x109947: main (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==  Uninitialised value was created by a heap allocation
+==143845==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==143845==    by 0x1096A1: CriaConta (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==    by 0x109339: AbreContaBanco (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==    by 0x109931: main (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845== 
+==143845== Conditional jump or move depends on uninitialised value(s)
+==143845==    at 0x10957D: TransferenciaContaBanco (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==    by 0x109973: main (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==  Uninitialised value was created by a heap allocation
+==143845==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==143845==    by 0x1096A1: CriaConta (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==    by 0x109339: AbreContaBanco (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==    by 0x109931: main (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845== 
+==143845== Conditional jump or move depends on uninitialised value(s)
+==143845==    at 0x1095AE: TransferenciaContaBanco (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==    by 0x109973: main (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==  Uninitialised value was created by a heap allocation
+==143845==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==143845==    by 0x1096A1: CriaConta (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==    by 0x109339: AbreContaBanco (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==    by 0x109931: main (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845== 
+==143845== Conditional jump or move depends on uninitialised value(s)
+==143845==    at 0x1093C0: SaqueContaBanco (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==    by 0x10995D: main (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==  Uninitialised value was created by a heap allocation
+==143845==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==143845==    by 0x1096A1: CriaConta (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==    by 0x109339: AbreContaBanco (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==    by 0x109931: main (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845== 
+==143845== Conditional jump or move depends on uninitialised value(s)
+==143845==    at 0x48D8AD6: __vfprintf_internal (vfprintf-internal.c:1516)
+==143845==    by 0x48C279E: printf (printf.c:33)
+==143845==    by 0x109783: ImprimeConta (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==    by 0x109673: ImprimeRelatorioBanco (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==    by 0x109989: main (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==  Uninitialised value was created by a heap allocation
+==143845==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==143845==    by 0x1096A1: CriaConta (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==    by 0x109339: AbreContaBanco (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==    by 0x109931: main (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845== 
+==143845== Use of uninitialised value of size 8
+==143845==    at 0x48BC2EB: _itoa_word (_itoa.c:177)
+==143845==    by 0x48D7ABD: __vfprintf_internal (vfprintf-internal.c:1516)
+==143845==    by 0x48C279E: printf (printf.c:33)
+==143845==    by 0x109783: ImprimeConta (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==    by 0x109673: ImprimeRelatorioBanco (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==    by 0x109989: main (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==  Uninitialised value was created by a heap allocation
+==143845==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==143845==    by 0x1096A1: CriaConta (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==    by 0x109339: AbreContaBanco (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==    by 0x109931: main (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845== 
+==143845== Conditional jump or move depends on uninitialised value(s)
+==143845==    at 0x48BC2FC: _itoa_word (_itoa.c:177)
+==143845==    by 0x48D7ABD: __vfprintf_internal (vfprintf-internal.c:1516)
+==143845==    by 0x48C279E: printf (printf.c:33)
+==143845==    by 0x109783: ImprimeConta (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==    by 0x109673: ImprimeRelatorioBanco (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==    by 0x109989: main (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==  Uninitialised value was created by a heap allocation
+==143845==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==143845==    by 0x1096A1: CriaConta (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==    by 0x109339: AbreContaBanco (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==    by 0x109931: main (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845== 
+==143845== Conditional jump or move depends on uninitialised value(s)
+==143845==    at 0x48D85C3: __vfprintf_internal (vfprintf-internal.c:1516)
+==143845==    by 0x48C279E: printf (printf.c:33)
+==143845==    by 0x109783: ImprimeConta (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==    by 0x109673: ImprimeRelatorioBanco (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==    by 0x109989: main (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==  Uninitialised value was created by a heap allocation
+==143845==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==143845==    by 0x1096A1: CriaConta (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==    by 0x109339: AbreContaBanco (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==    by 0x109931: main (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845== 
+==143845== Conditional jump or move depends on uninitialised value(s)
+==143845==    at 0x48D7C05: __vfprintf_internal (vfprintf-internal.c:1516)
+==143845==    by 0x48C279E: printf (printf.c:33)
+==143845==    by 0x109783: ImprimeConta (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==    by 0x109673: ImprimeRelatorioBanco (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==    by 0x109989: main (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==  Uninitialised value was created by a heap allocation
+==143845==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==143845==    by 0x1096A1: CriaConta (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==    by 0x109339: AbreContaBanco (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==    by 0x109931: main (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845== 
+==143845== Conditional jump or move depends on uninitialised value(s)
+==143845==    at 0x48BCCB8: __printf_fp_l (printf_fp.c:396)
+==143845==    by 0x48D892C: __printf_fp_spec (vfprintf-internal.c:354)
+==143845==    by 0x48D892C: __vfprintf_internal (vfprintf-internal.c:1558)
+==143845==    by 0x48C279E: printf (printf.c:33)
+==143845==    by 0x1097B2: ImprimeConta (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==    by 0x109673: ImprimeRelatorioBanco (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==    by 0x109989: main (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==  Uninitialised value was created by a heap allocation
+==143845==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==143845==    by 0x1096A1: CriaConta (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==    by 0x109339: AbreContaBanco (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==    by 0x109931: main (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845== 
+==143845== Conditional jump or move depends on uninitialised value(s)
+==143845==    at 0x48BCCD2: __printf_fp_l (printf_fp.c:396)
+==143845==    by 0x48D892C: __printf_fp_spec (vfprintf-internal.c:354)
+==143845==    by 0x48D892C: __vfprintf_internal (vfprintf-internal.c:1558)
+==143845==    by 0x48C279E: printf (printf.c:33)
+==143845==    by 0x1097B2: ImprimeConta (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==    by 0x109673: ImprimeRelatorioBanco (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==    by 0x109989: main (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==  Uninitialised value was created by a heap allocation
+==143845==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==143845==    by 0x1096A1: CriaConta (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==    by 0x109339: AbreContaBanco (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==    by 0x109931: main (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845== 
+==143845== Conditional jump or move depends on uninitialised value(s)
+==143845==    at 0x48B850A: __mpn_extract_double (dbl2mpn.c:56)
+==143845==    by 0x48BCFCE: __printf_fp_l (printf_fp.c:396)
+==143845==    by 0x48D892C: __printf_fp_spec (vfprintf-internal.c:354)
+==143845==    by 0x48D892C: __vfprintf_internal (vfprintf-internal.c:1558)
+==143845==    by 0x48C279E: printf (printf.c:33)
+==143845==    by 0x1097B2: ImprimeConta (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==    by 0x109673: ImprimeRelatorioBanco (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==    by 0x109989: main (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==  Uninitialised value was created by a heap allocation
+==143845==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==143845==    by 0x1096A1: CriaConta (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==    by 0x109339: AbreContaBanco (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==    by 0x109931: main (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845== 
+==143845== Conditional jump or move depends on uninitialised value(s)
+==143845==    at 0x48B850F: __mpn_extract_double (dbl2mpn.c:60)
+==143845==    by 0x48BCFCE: __printf_fp_l (printf_fp.c:396)
+==143845==    by 0x48D892C: __printf_fp_spec (vfprintf-internal.c:354)
+==143845==    by 0x48D892C: __vfprintf_internal (vfprintf-internal.c:1558)
+==143845==    by 0x48C279E: printf (printf.c:33)
+==143845==    by 0x1097B2: ImprimeConta (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==    by 0x109673: ImprimeRelatorioBanco (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==    by 0x109989: main (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==  Uninitialised value was created by a heap allocation
+==143845==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==143845==    by 0x1096A1: CriaConta (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==    by 0x109339: AbreContaBanco (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==    by 0x109931: main (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845== 
+==143845== Conditional jump or move depends on uninitialised value(s)
+==143845==    at 0x48BD9B0: __printf_fp_l (printf_fp.c:978)
+==143845==    by 0x48D892C: __printf_fp_spec (vfprintf-internal.c:354)
+==143845==    by 0x48D892C: __vfprintf_internal (vfprintf-internal.c:1558)
+==143845==    by 0x48C279E: printf (printf.c:33)
+==143845==    by 0x1097B2: ImprimeConta (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==    by 0x109673: ImprimeRelatorioBanco (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==    by 0x109989: main (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==  Uninitialised value was created by a heap allocation
+==143845==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==143845==    by 0x1096A1: CriaConta (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==    by 0x109339: AbreContaBanco (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==    by 0x109931: main (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845== 
+==143845== Conditional jump or move depends on uninitialised value(s)
+==143845==    at 0x48BD9EA: __printf_fp_l (printf_fp.c:981)
+==143845==    by 0x48D892C: __printf_fp_spec (vfprintf-internal.c:354)
+==143845==    by 0x48D892C: __vfprintf_internal (vfprintf-internal.c:1558)
+==143845==    by 0x48C279E: printf (printf.c:33)
+==143845==    by 0x1097B2: ImprimeConta (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==    by 0x109673: ImprimeRelatorioBanco (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==    by 0x109989: main (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==  Uninitialised value was created by a heap allocation
+==143845==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==143845==    by 0x1096A1: CriaConta (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==    by 0x109339: AbreContaBanco (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==    by 0x109931: main (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845== 
+==143845== Conditional jump or move depends on uninitialised value(s)
+==143845==    at 0x48BDA24: __printf_fp_l (printf_fp.c:991)
+==143845==    by 0x48D892C: __printf_fp_spec (vfprintf-internal.c:354)
+==143845==    by 0x48D892C: __vfprintf_internal (vfprintf-internal.c:1558)
+==143845==    by 0x48C279E: printf (printf.c:33)
+==143845==    by 0x1097B2: ImprimeConta (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==    by 0x109673: ImprimeRelatorioBanco (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==    by 0x109989: main (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==  Uninitialised value was created by a heap allocation
+==143845==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==143845==    by 0x1096A1: CriaConta (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==    by 0x109339: AbreContaBanco (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==    by 0x109931: main (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845== 
+==143845== Conditional jump or move depends on uninitialised value(s)
+==143845==    at 0x48BDA58: round_away (rounding-mode.h:52)
+==143845==    by 0x48BDA58: __printf_fp_l (printf_fp.c:998)
+==143845==    by 0x48D892C: __printf_fp_spec (vfprintf-internal.c:354)
+==143845==    by 0x48D892C: __vfprintf_internal (vfprintf-internal.c:1558)
+==143845==    by 0x48C279E: printf (printf.c:33)
+==143845==    by 0x1097B2: ImprimeConta (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==    by 0x109673: ImprimeRelatorioBanco (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==    by 0x109989: main (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==  Uninitialised value was created by a heap allocation
+==143845==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==143845==    by 0x1096A1: CriaConta (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==    by 0x109339: AbreContaBanco (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==    by 0x109931: main (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845== 
+==143845== Conditional jump or move depends on uninitialised value(s)
+==143845==    at 0x48BDCD5: __printf_fp_l (printf_fp.c:1166)
+==143845==    by 0x48D892C: __printf_fp_spec (vfprintf-internal.c:354)
+==143845==    by 0x48D892C: __vfprintf_internal (vfprintf-internal.c:1558)
+==143845==    by 0x48C279E: printf (printf.c:33)
+==143845==    by 0x1097B2: ImprimeConta (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==    by 0x109673: ImprimeRelatorioBanco (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==    by 0x109989: main (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==  Uninitialised value was created by a heap allocation
+==143845==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==143845==    by 0x1096A1: CriaConta (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==    by 0x109339: AbreContaBanco (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==    by 0x109931: main (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845== 
+==143845== Conditional jump or move depends on uninitialised value(s)
+==143845==    at 0x48BDF15: __printf_fp_l (printf_fp.c:1228)
+==143845==    by 0x48D892C: __printf_fp_spec (vfprintf-internal.c:354)
+==143845==    by 0x48D892C: __vfprintf_internal (vfprintf-internal.c:1558)
+==143845==    by 0x48C279E: printf (printf.c:33)
+==143845==    by 0x1097B2: ImprimeConta (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==    by 0x109673: ImprimeRelatorioBanco (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==    by 0x109989: main (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==  Uninitialised value was created by a heap allocation
+==143845==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==143845==    by 0x1096A1: CriaConta (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==    by 0x109339: AbreContaBanco (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==    by 0x109931: main (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845== 
+==143845== Conditional jump or move depends on uninitialised value(s)
+==143845==    at 0x48BDEFB: __printf_fp_l (printf_fp.c:1230)
+==143845==    by 0x48D892C: __printf_fp_spec (vfprintf-internal.c:354)
+==143845==    by 0x48D892C: __vfprintf_internal (vfprintf-internal.c:1558)
+==143845==    by 0x48C279E: printf (printf.c:33)
+==143845==    by 0x1097B2: ImprimeConta (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==    by 0x109673: ImprimeRelatorioBanco (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==    by 0x109989: main (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==  Uninitialised value was created by a heap allocation
+==143845==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==143845==    by 0x1096A1: CriaConta (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==    by 0x109339: AbreContaBanco (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==    by 0x109931: main (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845== 
+==143845== Conditional jump or move depends on uninitialised value(s)
+==143845==    at 0x48D773B: __vfprintf_internal (vfprintf-internal.c:1517)
+==143845==    by 0x48C279E: printf (printf.c:33)
+==143845==    by 0x109A94: ImprimeUsuario (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==    by 0x1097C2: ImprimeConta (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==    by 0x109673: ImprimeRelatorioBanco (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==    by 0x109989: main (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==  Uninitialised value was created by a heap allocation
+==143845==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==143845==    by 0x1096A1: CriaConta (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==    by 0x109339: AbreContaBanco (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==    by 0x109931: main (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845== 
+==143845== Conditional jump or move depends on uninitialised value(s)
+==143845==    at 0x48D773B: __vfprintf_internal (vfprintf-internal.c:1517)
+==143845==    by 0x48C279E: printf (printf.c:33)
+==143845==    by 0x109AB3: ImprimeUsuario (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==    by 0x1097C2: ImprimeConta (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==    by 0x109673: ImprimeRelatorioBanco (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==    by 0x109989: main (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==  Uninitialised value was created by a heap allocation
+==143845==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==143845==    by 0x1096A1: CriaConta (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==    by 0x109339: AbreContaBanco (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==    by 0x109931: main (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845== 
+==143845== Use of uninitialised value of size 8
+==143845==    at 0x484ED16: strlen (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==143845==    by 0x48D8D30: __vfprintf_internal (vfprintf-internal.c:1517)
+==143845==    by 0x48C279E: printf (printf.c:33)
+==143845==    by 0x109AB3: ImprimeUsuario (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==    by 0x1097C2: ImprimeConta (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==    by 0x109673: ImprimeRelatorioBanco (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==    by 0x109989: main (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==  Uninitialised value was created by a heap allocation
+==143845==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==143845==    by 0x1096A1: CriaConta (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==    by 0x109339: AbreContaBanco (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==    by 0x109931: main (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845== 
+==143845== Invalid read of size 1
+==143845==    at 0x484ED16: strlen (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==143845==    by 0x48D8D30: __vfprintf_internal (vfprintf-internal.c:1517)
+==143845==    by 0x48C279E: printf (printf.c:33)
+==143845==    by 0x109AB3: ImprimeUsuario (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==    by 0x1097C2: ImprimeConta (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==    by 0x109673: ImprimeRelatorioBanco (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==    by 0x109989: main (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==  Address 0x32 is not stack'd, malloc'd or (recently) free'd
+==143845== 
+==143845== 
+==143845== Process terminating with default action of signal 11 (SIGSEGV)
+==143845==  Access not within mapped region at address 0x32
+==143845==    at 0x484ED16: strlen (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==143845==    by 0x48D8D30: __vfprintf_internal (vfprintf-internal.c:1517)
+==143845==    by 0x48C279E: printf (printf.c:33)
+==143845==    by 0x109AB3: ImprimeUsuario (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==    by 0x1097C2: ImprimeConta (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==    by 0x109673: ImprimeRelatorioBanco (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==    by 0x109989: main (in /home/liep/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Victor/banco/prog)
+==143845==  If you believe this happened as a result of a stack
+==143845==  overflow in your program's main thread (unlikely but
+==143845==  possible), you can try to increase the size of the
+==143845==  main thread stack using the --main-stacksize= flag.
+==143845==  The main thread stack size used in this run was 8388608.
+==143845== 
+==143845== HEAP SUMMARY:
+==143845==     in use at exit: 8,256 bytes in 6 blocks
+==143845==   total heap usage: 7 allocs, 1 frees, 8,264 bytes allocated
+==143845== 
+==143845== LEAK SUMMARY:
+==143845==    definitely lost: 0 bytes in 0 blocks
+==143845==    indirectly lost: 0 bytes in 0 blocks
+==143845==      possibly lost: 0 bytes in 0 blocks
+==143845==    still reachable: 8,256 bytes in 6 blocks
+==143845==         suppressed: 0 bytes in 0 blocks
+==143845== Reachable blocks (those to which a pointer was found) are not shown.
+==143845== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==143845== 
+==143845== For lists of detected and suppressed errors, rerun with: -s
+==143845== ERROR SUMMARY: 35 errors from 24 contexts (suppressed: 0 from 0)
