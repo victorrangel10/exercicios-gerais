@@ -1,0 +1,214 @@
+Rodando o script do Aluno - Arquivos header necessários do professor existem na pasta Includes
+ - Arquivos objetos necessários do professor existem na pasta Gabarito-obj.
+#######################################
+ALUNO: Victor
+#######################################
+CRIANDO O DIRETÓRIO DE RESULTADO PARA Victor:
+ - Diretório Resultados/Victor criado com sucesso!
+ - Diretório Resultados/Victor/aluno criado com sucesso!
+ - Diretório Resultados/Victor/main criado com sucesso!
+ - Diretório Resultados/Victor/relatorio criado com sucesso!
+ - Diretório Resultados/Victor/vector criado com sucesso!
+ - Diretório Resultados/Victor/completo criado com sucesso!
+ - Arquivos criados: ok!
+
+CHECKANDO OS ARQUIVOS DO ALUNO:
+ - Arquivo esperado 'Respostas/Victor/aluno.c' não encontrado!
+ - Arquivo esperado 'Respostas/Victor/aluno.h' encontrado!
+ - Arquivo esperado 'Respostas/Victor/main.c' não encontrado!
+ - Arquivo esperado 'Respostas/Victor/relatorio.c' não encontrado!
+ - Arquivo esperado 'Respostas/Victor/relatorio.h' encontrado!
+ - Arquivo esperado 'Respostas/Victor/vector.c' encontrado!
+ - Arquivo esperado 'Respostas/Victor/vector.h' encontrado!
+ - Arquivos esperados enviados: Faltando!
+
+COPIANDO OS ARQUIVOS PARA A PASTA DE RESULTADO DO ALUNO:
+ - Pasta aluno:
+ - Copiando os Casos de teste para a pasta Resultados/Victor/aluno
+ - Copiando os 'Respostas/Victor/*.h' do aluno para a pasta Resultados/Victor/aluno
+ - Copiando os 'Includes/*.h' do professor para a pasta Resultados/Victor/aluno
+ - Copiando os 'Respostas/Victor/*.c' do aluno para a pasta Resultados/Victor/aluno
+ - Pasta main:
+ - Copiando os Casos de teste para a pasta Resultados/Victor/main
+ - Copiando os 'Respostas/Victor/*.h' do aluno para a pasta Resultados/Victor/main
+ - Copiando os 'Includes/*.h' do professor para a pasta Resultados/Victor/main
+ - Copiando os 'Respostas/Victor/*.c' do aluno para a pasta Resultados/Victor/main
+ - Pasta relatorio:
+ - Copiando os Casos de teste para a pasta Resultados/Victor/relatorio
+ - Copiando os 'Respostas/Victor/*.h' do aluno para a pasta Resultados/Victor/relatorio
+ - Copiando os 'Includes/*.h' do professor para a pasta Resultados/Victor/relatorio
+ - Copiando os 'Respostas/Victor/*.c' do aluno para a pasta Resultados/Victor/relatorio
+ - Pasta vector:
+ - Copiando os Casos de teste para a pasta Resultados/Victor/vector
+ - Copiando os 'Respostas/Victor/*.h' do aluno para a pasta Resultados/Victor/vector
+ - Copiando os 'Includes/*.h' do professor para a pasta Resultados/Victor/vector
+ - Copiando os 'Respostas/Victor/*.c' do aluno para a pasta Resultados/Victor/vector
+ - Pasta completo:
+ - Copiando os Casos de teste para a pasta Resultados/Victor/completo
+ - Copiando os 'Respostas/Victor/*.h' do aluno para a pasta Resultados/Victor/completo
+ - Copiando os 'Respostas/Victor/*.c' do aluno para a pasta Resultados/Victor/completo
+ - Arquivos copiados: ok!
+
+COMPILANDO OS ARQUIVOS NA PASTA DE RESULTADO DO ALUNO:
+ - Pasta aluno:
+ - Compilando o arquivo aluno.c do aluno, gerando o aluno.o
+ - Erro de compilação! Verifique se o arquivo Resultados/Victor/aluno/aluno.c está correto.
+ - Compilando o arquivo main.c do aluno, gerando o main.o
+ - Erro de compilação! Verifique se o arquivo Resultados/Victor/aluno/main.c está correto.
+ - Compilando o arquivo relatorio.c do aluno, gerando o relatorio.o
+ - Erro de compilação! Verifique se o arquivo Resultados/Victor/aluno/relatorio.c está correto.
+ - Compilando o arquivo vector.c do aluno, gerando o vector.o
+ - Arquivo de output gerado: Resultados/Victor/aluno/result_compilation.txt.
+ - Pasta main:
+ - Compilando o arquivo aluno.c do aluno, gerando o aluno.o
+ - Erro de compilação! Verifique se o arquivo Resultados/Victor/main/aluno.c está correto.
+ - Compilando o arquivo main.c do aluno, gerando o main.o
+ - Erro de compilação! Verifique se o arquivo Resultados/Victor/main/main.c está correto.
+ - Compilando o arquivo relatorio.c do aluno, gerando o relatorio.o
+ - Erro de compilação! Verifique se o arquivo Resultados/Victor/main/relatorio.c está correto.
+ - Compilando o arquivo vector.c do aluno, gerando o vector.o
+ - Arquivo de output gerado: Resultados/Victor/main/result_compilation.txt.
+ - Pasta relatorio:
+ - Compilando o arquivo aluno.c do aluno, gerando o aluno.o
+ - Erro de compilação! Verifique se o arquivo Resultados/Victor/relatorio/aluno.c está correto.
+ - Compilando o arquivo main.c do aluno, gerando o main.o
+ - Erro de compilação! Verifique se o arquivo Resultados/Victor/relatorio/main.c está correto.
+ - Compilando o arquivo relatorio.c do aluno, gerando o relatorio.o
+ - Erro de compilação! Verifique se o arquivo Resultados/Victor/relatorio/relatorio.c está correto.
+ - Compilando o arquivo vector.c do aluno, gerando o vector.o
+ - Arquivo de output gerado: Resultados/Victor/relatorio/result_compilation.txt.
+ - Pasta vector:
+ - Compilando o arquivo aluno.c do aluno, gerando o aluno.o
+ - Erro de compilação! Verifique se o arquivo Resultados/Victor/vector/aluno.c está correto.
+ - Compilando o arquivo main.c do aluno, gerando o main.o
+ - Erro de compilação! Verifique se o arquivo Resultados/Victor/vector/main.c está correto.
+ - Compilando o arquivo relatorio.c do aluno, gerando o relatorio.o
+ - Erro de compilação! Verifique se o arquivo Resultados/Victor/vector/relatorio.c está correto.
+ - Compilando o arquivo vector.c do aluno, gerando o vector.o
+ - Arquivo de output gerado: Resultados/Victor/vector/result_compilation.txt.
+ - Pasta completo:
+ - Compilando o arquivo aluno.c do aluno, gerando o aluno.o
+ - Erro de compilação! Verifique se o arquivo Resultados/Victor/completo/aluno.c está correto.
+ - Compilando o arquivo main.c do aluno, gerando o main.o
+ - Erro de compilação! Verifique se o arquivo Resultados/Victor/completo/main.c está correto.
+ - Compilando o arquivo relatorio.c do aluno, gerando o relatorio.o
+ - Erro de compilação! Verifique se o arquivo Resultados/Victor/completo/relatorio.c está correto.
+ - Compilando o arquivo vector.c do aluno, gerando o vector.o
+ - Arquivo de output gerado: Resultados/Victor/completo/result_compilation.txt.
+ - Arquivos Compilados: Erro!: 15 arquivos com erros de compilacao.
+ - Copiando os arquivos objetos do professor para cada subpasta do Resultado do Victor:
+ - Copiando o Gabarito-obj/aluno.o para a pasta Resultados/Victor/main
+ - Copiando o Gabarito-obj/aluno.o para a pasta Resultados/Victor/relatorio
+ - Copiando o Gabarito-obj/aluno.o para a pasta Resultados/Victor/vector
+ - Copiando o Gabarito-obj/main.o para a pasta Resultados/Victor/aluno
+ - Copiando o Gabarito-obj/main.o para a pasta Resultados/Victor/relatorio
+ - Copiando o Gabarito-obj/main.o para a pasta Resultados/Victor/vector
+ - Copiando o Gabarito-obj/relatorio.o para a pasta Resultados/Victor/aluno
+ - Copiando o Gabarito-obj/relatorio.o para a pasta Resultados/Victor/main
+ - Copiando o Gabarito-obj/relatorio.o para a pasta Resultados/Victor/vector
+ - Copiando o Gabarito-obj/vector.o para a pasta Resultados/Victor/aluno
+ - Copiando o Gabarito-obj/vector.o para a pasta Resultados/Victor/main
+ - Copiando o Gabarito-obj/vector.o para a pasta Resultados/Victor/relatorio
+ - Arquivos Compilados: ok!
+
+LINKANDO OS ARQUIVOS COMPILADOS:
+ - Pasta aluno:
+ - Gerando o binário prog linkando com o(s) arquivo(s) aluno/*.o
+ - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivo de output gerado: Resultados/Victor/aluno/result_linking.txt
+ - Pasta main:
+ - Gerando o binário prog linkando com o(s) arquivo(s) main/*.o
+ - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivo de output gerado: Resultados/Victor/main/result_linking.txt
+ - Pasta relatorio:
+ - Gerando o binário prog linkando com o(s) arquivo(s) relatorio/*.o
+ - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivo de output gerado: Resultados/Victor/relatorio/result_linking.txt
+ - Pasta vector:
+ - Gerando o binário prog linkando com o(s) arquivo(s) vector/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/Victor/vector/result_linking.txt
+ - Pasta completo:
+ - Gerando o binário prog linkando com o(s) arquivo(s) completo/*.o
+ - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivo de output gerado: Resultados/Victor/completo/result_linking.txt
+ - Arquivos Linkados: Erro! 4 arquivos com erros de linkagem.
+
+EXECUTANDO O VALGRIND EM CADA CASO:
+ - Pasta aluno / Caso 1:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta aluno / Caso 2:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta aluno / Caso 3:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta main / Caso 1:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta main / Caso 2:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta main / Caso 3:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta relatorio / Caso 1:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta relatorio / Caso 2:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta relatorio / Caso 3:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta vector / Caso 1:
+ - Arquivo de output gerado: Resultados/Victor/vector/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 11, frees: 11, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta vector / Caso 2:
+ - Arquivo de output gerado: Resultados/Victor/vector/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 13, frees: 13, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta vector / Caso 3:
+ - Arquivo de output gerado: Resultados/Victor/vector/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 15, frees: 15, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta completo / Caso 1:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta completo / Caso 2:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta completo / Caso 3:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto!
+
+#######################################
+RESULTADOS FINAIS
+#######################################
+
+----------------------------------------------------------------------------
+Nome 0: Victor
+ - Arquivos Corretos: 4 de 7 / Nota 5.71
+ - Compilações Corretas: 5 de 20 / Nota 2.50
+ - Linkagens Corretas: 1 de 5 / Nota 2.00
+ - Resultados Corretos aluno: 0 de 3 / Nota 0.00
+ - Valgrinds Corretos aluno: 0 de 3 / Nota 0.00
+ - Resultados Corretos main: 0 de 3 / Nota 0.00
+ - Valgrinds Corretos main: 0 de 3 / Nota 0.00
+ - Resultados Corretos relatorio: 0 de 3 / Nota 0.00
+ - Valgrinds Corretos relatorio: 0 de 3 / Nota 0.00
+ - Resultados Corretos vector: 3 de 3 / Nota 10.00
+ - Valgrinds Corretos vector: 3 de 3 / Nota 10.00
+ - Resultados Corretos completo: 0 de 3 / Nota 0.00
+ - Valgrinds Corretos completo: 0 de 3 / Nota 0.00
+ - Soma das notas do Victor: 30.210
+ - Campos Considerados: 13
+ - Média do Victor: 2.32
+
+----------------------------------------------------------------------------
+
+Arquivo CSV Resultado.csv com os resultados finais foi gerado na pasta raíz!
+
+

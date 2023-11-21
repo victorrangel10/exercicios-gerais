@@ -1,0 +1,9 @@
+cc1: fatal error: Resultados/Victor/relatorio/aluno.c: No such file or directory
+compilation terminated.
+cc1: fatal error: Resultados/Victor/relatorio/main.c: No such file or directory
+compilation terminated.
+cc1: fatal error: Resultados/Victor/relatorio/relatorio.c: No such file or directory
+compilation terminated.
+Resultados/Victor/relatorio/vector.c:11:1: warning: useless storage class specifier in empty declaration
+   11 | };
+      | ^
