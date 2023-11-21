@@ -26,9 +26,10 @@ void LeUsuario(tUsuario *user) {
   scanf("%s",string);
   
   user->nome=realloc(user->nome,(strlen(string)+1)*sizeof(char));
+
   strcpy(user->nome,string);
    
-    scanf("%d",&user->cpf);
+scanf("%d",&user->cpf);
 }
 
 void ImprimeUsuario(tUsuario *user) {

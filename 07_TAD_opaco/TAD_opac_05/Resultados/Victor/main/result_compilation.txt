@@ -1,8 +1,8 @@
 Resultados/Victor/main/banco.c:10:1: warning: useless storage class specifier in empty declaration
    10 | };
       | ^
-Resultados/Victor/main/conta.c:11:1: warning: useless storage class specifier in empty declaration
-   11 | };
+Resultados/Victor/main/conta.c:12:1: warning: useless storage class specifier in empty declaration
+   12 | };
       | ^
 Resultados/Victor/main/usuario.c:9:1: warning: useless storage class specifier in empty declaration
     9 | };
