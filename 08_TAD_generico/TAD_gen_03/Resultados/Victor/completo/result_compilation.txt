@@ -1,9 +1,13 @@
-cc1: fatal error: Resultados/Victor/completo/aluno.c: No such file or directory
-compilation terminated.
-cc1: fatal error: Resultados/Victor/completo/main.c: No such file or directory
-compilation terminated.
-cc1: fatal error: Resultados/Victor/completo/relatorio.c: No such file or directory
-compilation terminated.
-Resultados/Victor/completo/vector.c:11:1: warning: useless storage class specifier in empty declaration
+Resultados/Victor/completo/aluno.c:11:1: warning: no semicolon at end of struct or union
    11 | };
+      | ^
+Resultados/Victor/completo/aluno.c:11:1: warning: useless storage class specifier in empty declaration
+Resultados/Victor/completo/aluno.c: In function ‘LeAluno’:
+Resultados/Victor/completo/aluno.c:31:15: warning: format ‘%[^;’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[100]’ [-Wformat=]
+   31 |     scanf("%[^;];%c;%f", &nome, &aluno->sexo, &aluno->nota);
+      |            ~~~^          ~~~~~
+      |               |          |
+      |               char *     char (*)[100]
+Resultados/Victor/completo/vector.c:10:1: warning: useless storage class specifier in empty declaration
+   10 | };
       | ^
