@@ -1,0 +1,11 @@
+Resultados/Victor/tarefasoma/agendatarefas.c:19:1: warning: no semicolon at end of struct or union
+   19 | };
+      | ^
+cc1: fatal error: Resultados/Victor/tarefasoma/main.c: No such file or directory
+compilation terminated.
+cc1: fatal error: Resultados/Victor/tarefasoma/tarefaimprime.c: No such file or directory
+compilation terminated.
+cc1: fatal error: Resultados/Victor/tarefasoma/tarefamultiplica.c: No such file or directory
+compilation terminated.
+cc1: fatal error: Resultados/Victor/tarefasoma/tarefasoma.c: No such file or directory
+compilation terminated.

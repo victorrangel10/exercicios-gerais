@@ -1,0 +1,56 @@
+==36923== Memcheck, a memory error detector
+==36923== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==36923== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==36923== Command: Resultados/Victor/agendatarefas/prog Resultados/Victor/agendatarefas/Casos/1
+==36923== Parent PID: 36922
+==36923== 
+==36923== Use of uninitialised value of size 8
+==36923==    at 0x109431: ExecutarTarefasDaAgenda (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_05/Resultados/Victor/agendatarefas/prog)
+==36923==    by 0x1097AC: main (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_05/Resultados/Victor/agendatarefas/prog)
+==36923== 
+==36923== Invalid read of size 4
+==36923==    at 0x109431: ExecutarTarefasDaAgenda (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_05/Resultados/Victor/agendatarefas/prog)
+==36923==    by 0x1097AC: main (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_05/Resultados/Victor/agendatarefas/prog)
+==36923==  Address 0x0 is not stack'd, malloc'd or (recently) free'd
+==36923== 
+==36923== 
+==36923== Process terminating with default action of signal 11 (SIGSEGV)
+==36923==  Access not within mapped region at address 0x0
+==36923==    at 0x109431: ExecutarTarefasDaAgenda (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_05/Resultados/Victor/agendatarefas/prog)
+==36923==    by 0x1097AC: main (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_05/Resultados/Victor/agendatarefas/prog)
+==36923==  If you believe this happened as a result of a stack
+==36923==  overflow in your program's main thread (unlikely but
+==36923==  possible), you can try to increase the size of the
+==36923==  main thread stack using the --main-stacksize= flag.
+==36923==  The main thread stack size used in this run was 8388608.
+==36923== 
+==36923== HEAP SUMMARY:
+==36923==     in use at exit: 8,511 bytes in 17 blocks
+==36923==   total heap usage: 21 allocs, 4 frees, 8,703 bytes allocated
+==36923== 
+==36923== 40 (32 direct, 8 indirect) bytes in 1 blocks are definitely lost in loss record 9 of 14
+==36923==    at 0x484DA83: calloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==36923==    by 0x10930B: CadastraTarefaNaAgenda (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_05/Resultados/Victor/agendatarefas/prog)
+==36923==    by 0x10974F: main (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_05/Resultados/Victor/agendatarefas/prog)
+==36923== 
+==36923== 40 (32 direct, 8 indirect) bytes in 1 blocks are definitely lost in loss record 10 of 14
+==36923==    at 0x484DA83: calloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==36923==    by 0x10930B: CadastraTarefaNaAgenda (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_05/Resultados/Victor/agendatarefas/prog)
+==36923==    by 0x1096CA: main (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_05/Resultados/Victor/agendatarefas/prog)
+==36923== 
+==36923== 105 (64 direct, 41 indirect) bytes in 2 blocks are definitely lost in loss record 12 of 14
+==36923==    at 0x484DA83: calloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==36923==    by 0x10930B: CadastraTarefaNaAgenda (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_05/Resultados/Victor/agendatarefas/prog)
+==36923==    by 0x109645: main (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_05/Resultados/Victor/agendatarefas/prog)
+==36923== 
+==36923== LEAK SUMMARY:
+==36923==    definitely lost: 128 bytes in 4 blocks
+==36923==    indirectly lost: 57 bytes in 6 blocks
+==36923==      possibly lost: 0 bytes in 0 blocks
+==36923==    still reachable: 8,326 bytes in 7 blocks
+==36923==         suppressed: 0 bytes in 0 blocks
+==36923== Reachable blocks (those to which a pointer was found) are not shown.
+==36923== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==36923== 
+==36923== For lists of detected and suppressed errors, rerun with: -s
+==36923== ERROR SUMMARY: 5 errors from 5 contexts (suppressed: 0 from 0)
