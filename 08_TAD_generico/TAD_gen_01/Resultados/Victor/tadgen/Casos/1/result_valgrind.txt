@@ -1,0 +1,95 @@
+==89427== Memcheck, a memory error detector
+==89427== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==89427== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==89427== Command: Resultados/Victor/tadgen/prog Resultados/Victor/tadgen/Casos/1
+==89427== Parent PID: 89426
+==89427== 
+==89427== Invalid write of size 4
+==89427==    at 0x109264: CriaGenerico (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_01/Resultados/Victor/tadgen/prog)
+==89427==    by 0x1091F9: main (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_01/Resultados/Victor/tadgen/prog)
+==89427==  Address 0x4aa40c8 is 0 bytes after a block of size 8 alloc'd
+==89427==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==89427==    by 0x109258: CriaGenerico (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_01/Resultados/Victor/tadgen/prog)
+==89427==    by 0x1091F9: main (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_01/Resultados/Victor/tadgen/prog)
+==89427== 
+==89427== Invalid write of size 4
+==89427==    at 0x10926E: CriaGenerico (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_01/Resultados/Victor/tadgen/prog)
+==89427==    by 0x1091F9: main (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_01/Resultados/Victor/tadgen/prog)
+==89427==  Address 0x4aa40d8 is 16 bytes after a block of size 8 alloc'd
+==89427==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==89427==    by 0x109258: CriaGenerico (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_01/Resultados/Victor/tadgen/prog)
+==89427==    by 0x1091F9: main (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_01/Resultados/Victor/tadgen/prog)
+==89427== 
+==89427== Invalid write of size 8
+==89427==    at 0x10927B: CriaGenerico (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_01/Resultados/Victor/tadgen/prog)
+==89427==    by 0x1091F9: main (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_01/Resultados/Victor/tadgen/prog)
+==89427==  Address 0x4aa40d0 is 8 bytes after a block of size 8 alloc'd
+==89427==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==89427==    by 0x109258: CriaGenerico (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_01/Resultados/Victor/tadgen/prog)
+==89427==    by 0x1091F9: main (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_01/Resultados/Victor/tadgen/prog)
+==89427== 
+==89427== Invalid read of size 8
+==89427==    at 0x109295: CriaGenerico (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_01/Resultados/Victor/tadgen/prog)
+==89427==    by 0x1091F9: main (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_01/Resultados/Victor/tadgen/prog)
+==89427==  Address 0x4aa40d0 is 8 bytes after a block of size 8 alloc'd
+==89427==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==89427==    by 0x109258: CriaGenerico (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_01/Resultados/Victor/tadgen/prog)
+==89427==    by 0x1091F9: main (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_01/Resultados/Victor/tadgen/prog)
+==89427== 
+==89427== Invalid read of size 4
+==89427==    at 0x10929D: CriaGenerico (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_01/Resultados/Victor/tadgen/prog)
+==89427==    by 0x1091F9: main (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_01/Resultados/Victor/tadgen/prog)
+==89427==  Address 0x4aa40d8 is 16 bytes after a block of size 8 alloc'd
+==89427==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==89427==    by 0x109258: CriaGenerico (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_01/Resultados/Victor/tadgen/prog)
+==89427==    by 0x1091F9: main (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_01/Resultados/Victor/tadgen/prog)
+==89427== 
+==89427== Invalid read of size 4
+==89427==    at 0x109389: LeGenerico (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_01/Resultados/Victor/tadgen/prog)
+==89427==    by 0x109209: main (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_01/Resultados/Victor/tadgen/prog)
+==89427==  Address 0x4aa40d8 is 16 bytes after a block of size 8 alloc'd
+==89427==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==89427==    by 0x109258: CriaGenerico (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_01/Resultados/Victor/tadgen/prog)
+==89427==    by 0x1091F9: main (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_01/Resultados/Victor/tadgen/prog)
+==89427== 
+==89427== Invalid read of size 4
+==89427==    at 0x109319: LeGenerico (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_01/Resultados/Victor/tadgen/prog)
+==89427==    by 0x109209: main (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_01/Resultados/Victor/tadgen/prog)
+==89427==  Address 0x4aa40c8 is 0 bytes after a block of size 8 alloc'd
+==89427==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==89427==    by 0x109258: CriaGenerico (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_01/Resultados/Victor/tadgen/prog)
+==89427==    by 0x1091F9: main (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_01/Resultados/Victor/tadgen/prog)
+==89427== 
+==89427== Invalid read of size 4
+==89427==    at 0x10934F: LeGenerico (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_01/Resultados/Victor/tadgen/prog)
+==89427==    by 0x109209: main (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_01/Resultados/Victor/tadgen/prog)
+==89427==  Address 0x4aa40c8 is 0 bytes after a block of size 8 alloc'd
+==89427==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==89427==    by 0x109258: CriaGenerico (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_01/Resultados/Victor/tadgen/prog)
+==89427==    by 0x1091F9: main (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_01/Resultados/Victor/tadgen/prog)
+==89427== 
+==89427== Invalid read of size 4
+==89427==    at 0x1093AC: ImprimeGenerico (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_01/Resultados/Victor/tadgen/prog)
+==89427==    by 0x109215: main (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_01/Resultados/Victor/tadgen/prog)
+==89427==  Address 0x4aa40c8 is 0 bytes after a block of size 8 alloc'd
+==89427==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==89427==    by 0x109258: CriaGenerico (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_01/Resultados/Victor/tadgen/prog)
+==89427==    by 0x1091F9: main (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_01/Resultados/Victor/tadgen/prog)
+==89427== 
+==89427== Invalid read of size 4
+==89427==    at 0x1093EB: ImprimeGenerico (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_01/Resultados/Victor/tadgen/prog)
+==89427==    by 0x109215: main (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_01/Resultados/Victor/tadgen/prog)
+==89427==  Address 0x4aa40d8 is 16 bytes after a block of size 8 alloc'd
+==89427==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==89427==    by 0x109258: CriaGenerico (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_01/Resultados/Victor/tadgen/prog)
+==89427==    by 0x1091F9: main (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_01/Resultados/Victor/tadgen/prog)
+==89427== 
+==89427== 
+==89427== HEAP SUMMARY:
+==89427==     in use at exit: 0 bytes in 0 blocks
+==89427==   total heap usage: 4 allocs, 4 frees, 8,220 bytes allocated
+==89427== 
+==89427== All heap blocks were freed -- no leaks are possible
+==89427== 
+==89427== For lists of detected and suppressed errors, rerun with: -s
+==89427== ERROR SUMMARY: 28 errors from 10 contexts (suppressed: 0 from 0)

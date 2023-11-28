@@ -9,6 +9,7 @@ int main(){
     int nalunos;
     scanf("%d\n",&nalunos);
     Vector * alunos =VectorConstruct();
+    
     for (size_t i = 0; i < nalunos; i++)
     {
         tAluno* a =CriaAluno();
@@ -16,10 +17,10 @@ int main(){
         VectorPushBack(alunos,a);
 
     }
+
     ImprimeRelatorio(alunos);
 
-    
-        VectorDestroy(alunos,DestroiAluno);
+    VectorDestroy(alunos,DestroiAluno);
     
     
     

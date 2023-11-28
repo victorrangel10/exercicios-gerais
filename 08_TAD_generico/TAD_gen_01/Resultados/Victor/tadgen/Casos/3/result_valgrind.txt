@@ -1,0 +1,225 @@
+==90255== Memcheck, a memory error detector
+==90255== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==90255== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==90255== Command: Resultados/Victor/tadgen/prog Resultados/Victor/tadgen/Casos/3
+==90255== Parent PID: 90254
+==90255== 
+==90255== Invalid write of size 4
+==90255==    at 0x109264: CriaGenerico (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_01/Resultados/Victor/tadgen/prog)
+==90255==    by 0x1091F9: main (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_01/Resultados/Victor/tadgen/prog)
+==90255==  Address 0x4aa40c8 is 0 bytes after a block of size 8 alloc'd
+==90255==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==90255==    by 0x109258: CriaGenerico (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_01/Resultados/Victor/tadgen/prog)
+==90255==    by 0x1091F9: main (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_01/Resultados/Victor/tadgen/prog)
+==90255== 
+==90255== Invalid write of size 4
+==90255==    at 0x10926E: CriaGenerico (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_01/Resultados/Victor/tadgen/prog)
+==90255==    by 0x1091F9: main (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_01/Resultados/Victor/tadgen/prog)
+==90255==  Address 0x4aa40d8 is 16 bytes after a block of size 8 alloc'd
+==90255==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==90255==    by 0x109258: CriaGenerico (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_01/Resultados/Victor/tadgen/prog)
+==90255==    by 0x1091F9: main (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_01/Resultados/Victor/tadgen/prog)
+==90255== 
+==90255== Invalid write of size 8
+==90255==    at 0x109289: CriaGenerico (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_01/Resultados/Victor/tadgen/prog)
+==90255==    by 0x1091F9: main (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_01/Resultados/Victor/tadgen/prog)
+==90255==  Address 0x4aa40d0 is 8 bytes after a block of size 8 alloc'd
+==90255==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==90255==    by 0x109258: CriaGenerico (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_01/Resultados/Victor/tadgen/prog)
+==90255==    by 0x1091F9: main (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_01/Resultados/Victor/tadgen/prog)
+==90255== 
+==90255== Invalid read of size 8
+==90255==    at 0x109295: CriaGenerico (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_01/Resultados/Victor/tadgen/prog)
+==90255==    by 0x1091F9: main (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_01/Resultados/Victor/tadgen/prog)
+==90255==  Address 0x4aa40d0 is 8 bytes after a block of size 8 alloc'd
+==90255==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==90255==    by 0x109258: CriaGenerico (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_01/Resultados/Victor/tadgen/prog)
+==90255==    by 0x1091F9: main (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_01/Resultados/Victor/tadgen/prog)
+==90255== 
+==90255== Invalid read of size 4
+==90255==    at 0x10929D: CriaGenerico (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_01/Resultados/Victor/tadgen/prog)
+==90255==    by 0x1091F9: main (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_01/Resultados/Victor/tadgen/prog)
+==90255==  Address 0x4aa40d8 is 16 bytes after a block of size 8 alloc'd
+==90255==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==90255==    by 0x109258: CriaGenerico (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_01/Resultados/Victor/tadgen/prog)
+==90255==    by 0x1091F9: main (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_01/Resultados/Victor/tadgen/prog)
+==90255== 
+==90255== Invalid read of size 4
+==90255==    at 0x109389: LeGenerico (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_01/Resultados/Victor/tadgen/prog)
+==90255==    by 0x109209: main (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_01/Resultados/Victor/tadgen/prog)
+==90255==  Address 0x4aa40d8 is 16 bytes after a block of size 8 alloc'd
+==90255==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==90255==    by 0x109258: CriaGenerico (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_01/Resultados/Victor/tadgen/prog)
+==90255==    by 0x1091F9: main (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_01/Resultados/Victor/tadgen/prog)
+==90255== 
+==90255== Invalid read of size 4
+==90255==    at 0x109319: LeGenerico (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_01/Resultados/Victor/tadgen/prog)
+==90255==    by 0x109209: main (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_01/Resultados/Victor/tadgen/prog)
+==90255==  Address 0x4aa40c8 is 0 bytes after a block of size 8 alloc'd
+==90255==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==90255==    by 0x109258: CriaGenerico (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_01/Resultados/Victor/tadgen/prog)
+==90255==    by 0x1091F9: main (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_01/Resultados/Victor/tadgen/prog)
+==90255== 
+==90255== Invalid read of size 4
+==90255==    at 0x1093AC: ImprimeGenerico (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_01/Resultados/Victor/tadgen/prog)
+==90255==    by 0x109215: main (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_01/Resultados/Victor/tadgen/prog)
+==90255==  Address 0x4aa40c8 is 0 bytes after a block of size 8 alloc'd
+==90255==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==90255==    by 0x109258: CriaGenerico (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_01/Resultados/Victor/tadgen/prog)
+==90255==    by 0x1091F9: main (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_01/Resultados/Victor/tadgen/prog)
+==90255== 
+==90255== Invalid read of size 4
+==90255==    at 0x109430: ImprimeGenerico (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_01/Resultados/Victor/tadgen/prog)
+==90255==    by 0x109215: main (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_01/Resultados/Victor/tadgen/prog)
+==90255==  Address 0x4aa40d8 is 16 bytes after a block of size 8 alloc'd
+==90255==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==90255==    by 0x109258: CriaGenerico (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_01/Resultados/Victor/tadgen/prog)
+==90255==    by 0x1091F9: main (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_01/Resultados/Victor/tadgen/prog)
+==90255== 
+==90255== Conditional jump or move depends on uninitialised value(s)
+==90255==    at 0x48D1CB8: __printf_fp_l (printf_fp.c:396)
+==90255==    by 0x48ED92C: __printf_fp_spec (vfprintf-internal.c:354)
+==90255==    by 0x48ED92C: __vfprintf_internal (vfprintf-internal.c:1558)
+==90255==    by 0x48D779E: printf (printf.c:33)
+==90255==    by 0x109426: ImprimeGenerico (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_01/Resultados/Victor/tadgen/prog)
+==90255==    by 0x109215: main (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_01/Resultados/Victor/tadgen/prog)
+==90255==  Uninitialised value was created by a stack allocation
+==90255==    at 0x48D76F4: printf (printf.c:28)
+==90255== 
+==90255== Conditional jump or move depends on uninitialised value(s)
+==90255==    at 0x48D1CD2: __printf_fp_l (printf_fp.c:396)
+==90255==    by 0x48ED92C: __printf_fp_spec (vfprintf-internal.c:354)
+==90255==    by 0x48ED92C: __vfprintf_internal (vfprintf-internal.c:1558)
+==90255==    by 0x48D779E: printf (printf.c:33)
+==90255==    by 0x109426: ImprimeGenerico (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_01/Resultados/Victor/tadgen/prog)
+==90255==    by 0x109215: main (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_01/Resultados/Victor/tadgen/prog)
+==90255==  Uninitialised value was created by a stack allocation
+==90255==    at 0x48D76F4: printf (printf.c:28)
+==90255== 
+==90255== Conditional jump or move depends on uninitialised value(s)
+==90255==    at 0x48CD50A: __mpn_extract_double (dbl2mpn.c:56)
+==90255==    by 0x48D1FCE: __printf_fp_l (printf_fp.c:396)
+==90255==    by 0x48ED92C: __printf_fp_spec (vfprintf-internal.c:354)
+==90255==    by 0x48ED92C: __vfprintf_internal (vfprintf-internal.c:1558)
+==90255==    by 0x48D779E: printf (printf.c:33)
+==90255==    by 0x109426: ImprimeGenerico (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_01/Resultados/Victor/tadgen/prog)
+==90255==    by 0x109215: main (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_01/Resultados/Victor/tadgen/prog)
+==90255==  Uninitialised value was created by a stack allocation
+==90255==    at 0x48D76F4: printf (printf.c:28)
+==90255== 
+==90255== Conditional jump or move depends on uninitialised value(s)
+==90255==    at 0x48CD50F: __mpn_extract_double (dbl2mpn.c:60)
+==90255==    by 0x48D1FCE: __printf_fp_l (printf_fp.c:396)
+==90255==    by 0x48ED92C: __printf_fp_spec (vfprintf-internal.c:354)
+==90255==    by 0x48ED92C: __vfprintf_internal (vfprintf-internal.c:1558)
+==90255==    by 0x48D779E: printf (printf.c:33)
+==90255==    by 0x109426: ImprimeGenerico (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_01/Resultados/Victor/tadgen/prog)
+==90255==    by 0x109215: main (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_01/Resultados/Victor/tadgen/prog)
+==90255==  Uninitialised value was created by a stack allocation
+==90255==    at 0x48D76F4: printf (printf.c:28)
+==90255== 
+==90255== Conditional jump or move depends on uninitialised value(s)
+==90255==    at 0x48D29B0: __printf_fp_l (printf_fp.c:978)
+==90255==    by 0x48ED92C: __printf_fp_spec (vfprintf-internal.c:354)
+==90255==    by 0x48ED92C: __vfprintf_internal (vfprintf-internal.c:1558)
+==90255==    by 0x48D779E: printf (printf.c:33)
+==90255==    by 0x109426: ImprimeGenerico (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_01/Resultados/Victor/tadgen/prog)
+==90255==    by 0x109215: main (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_01/Resultados/Victor/tadgen/prog)
+==90255==  Uninitialised value was created by a stack allocation
+==90255==    at 0x48D76F4: printf (printf.c:28)
+==90255== 
+==90255== Conditional jump or move depends on uninitialised value(s)
+==90255==    at 0x48D29EA: __printf_fp_l (printf_fp.c:981)
+==90255==    by 0x48ED92C: __printf_fp_spec (vfprintf-internal.c:354)
+==90255==    by 0x48ED92C: __vfprintf_internal (vfprintf-internal.c:1558)
+==90255==    by 0x48D779E: printf (printf.c:33)
+==90255==    by 0x109426: ImprimeGenerico (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_01/Resultados/Victor/tadgen/prog)
+==90255==    by 0x109215: main (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_01/Resultados/Victor/tadgen/prog)
+==90255==  Uninitialised value was created by a stack allocation
+==90255==    at 0x48D76F4: printf (printf.c:28)
+==90255== 
+==90255== Conditional jump or move depends on uninitialised value(s)
+==90255==    at 0x48D2A24: __printf_fp_l (printf_fp.c:991)
+==90255==    by 0x48ED92C: __printf_fp_spec (vfprintf-internal.c:354)
+==90255==    by 0x48ED92C: __vfprintf_internal (vfprintf-internal.c:1558)
+==90255==    by 0x48D779E: printf (printf.c:33)
+==90255==    by 0x109426: ImprimeGenerico (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_01/Resultados/Victor/tadgen/prog)
+==90255==    by 0x109215: main (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_01/Resultados/Victor/tadgen/prog)
+==90255==  Uninitialised value was created by a stack allocation
+==90255==    at 0x48D76F4: printf (printf.c:28)
+==90255== 
+==90255== Conditional jump or move depends on uninitialised value(s)
+==90255==    at 0x48D2A58: round_away (rounding-mode.h:52)
+==90255==    by 0x48D2A58: __printf_fp_l (printf_fp.c:998)
+==90255==    by 0x48ED92C: __printf_fp_spec (vfprintf-internal.c:354)
+==90255==    by 0x48ED92C: __vfprintf_internal (vfprintf-internal.c:1558)
+==90255==    by 0x48D779E: printf (printf.c:33)
+==90255==    by 0x109426: ImprimeGenerico (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_01/Resultados/Victor/tadgen/prog)
+==90255==    by 0x109215: main (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_01/Resultados/Victor/tadgen/prog)
+==90255==  Uninitialised value was created by a stack allocation
+==90255==    at 0x48D76F4: printf (printf.c:28)
+==90255== 
+==90255== Conditional jump or move depends on uninitialised value(s)
+==90255==    at 0x48D2CD5: __printf_fp_l (printf_fp.c:1166)
+==90255==    by 0x48ED92C: __printf_fp_spec (vfprintf-internal.c:354)
+==90255==    by 0x48ED92C: __vfprintf_internal (vfprintf-internal.c:1558)
+==90255==    by 0x48D779E: printf (printf.c:33)
+==90255==    by 0x109426: ImprimeGenerico (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_01/Resultados/Victor/tadgen/prog)
+==90255==    by 0x109215: main (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_01/Resultados/Victor/tadgen/prog)
+==90255==  Uninitialised value was created by a stack allocation
+==90255==    at 0x48D76F4: printf (printf.c:28)
+==90255== 
+==90255== Conditional jump or move depends on uninitialised value(s)
+==90255==    at 0x48D2F15: __printf_fp_l (printf_fp.c:1228)
+==90255==    by 0x48ED92C: __printf_fp_spec (vfprintf-internal.c:354)
+==90255==    by 0x48ED92C: __vfprintf_internal (vfprintf-internal.c:1558)
+==90255==    by 0x48D779E: printf (printf.c:33)
+==90255==    by 0x109426: ImprimeGenerico (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_01/Resultados/Victor/tadgen/prog)
+==90255==    by 0x109215: main (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_01/Resultados/Victor/tadgen/prog)
+==90255==  Uninitialised value was created by a stack allocation
+==90255==    at 0x48D76F4: printf (printf.c:28)
+==90255== 
+==90255== Conditional jump or move depends on uninitialised value(s)
+==90255==    at 0x48D2EFB: __printf_fp_l (printf_fp.c:1230)
+==90255==    by 0x48ED92C: __printf_fp_spec (vfprintf-internal.c:354)
+==90255==    by 0x48ED92C: __vfprintf_internal (vfprintf-internal.c:1558)
+==90255==    by 0x48D779E: printf (printf.c:33)
+==90255==    by 0x109426: ImprimeGenerico (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_01/Resultados/Victor/tadgen/prog)
+==90255==    by 0x109215: main (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_01/Resultados/Victor/tadgen/prog)
+==90255==  Uninitialised value was created by a stack allocation
+==90255==    at 0x48D76F4: printf (printf.c:28)
+==90255== 
+==90255== Syscall param write(buf) points to uninitialised byte(s)
+==90255==    at 0x498BA77: write (write.c:26)
+==90255==    by 0x4901EEC: _IO_file_write@@GLIBC_2.2.5 (fileops.c:1180)
+==90255==    by 0x49039E0: new_do_write (fileops.c:448)
+==90255==    by 0x49039E0: _IO_new_do_write (fileops.c:425)
+==90255==    by 0x49039E0: _IO_do_write@@GLIBC_2.2.5 (fileops.c:422)
+==90255==    by 0x49059C1: _IO_flush_all_lockp (genops.c:706)
+==90255==    by 0x4905B7D: _IO_cleanup (genops.c:866)
+==90255==    by 0x48BC541: __run_exit_handlers (exit.c:134)
+==90255==    by 0x48BC60F: exit (exit.c:143)
+==90255==    by 0x48A0D96: (below main) (libc_start_call_main.h:74)
+==90255==  Address 0x4aa2083 is 67 bytes inside a block of size 4,096 alloc'd
+==90255==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==90255==    by 0x48F5BA3: _IO_file_doallocate (filedoalloc.c:101)
+==90255==    by 0x4904CDF: _IO_doallocbuf (genops.c:347)
+==90255==    by 0x4903F5F: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:744)
+==90255==    by 0x49026D4: _IO_new_file_xsputn (fileops.c:1243)
+==90255==    by 0x49026D4: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1196)
+==90255==    by 0x48EC14C: outstring_func (vfprintf-internal.c:239)
+==90255==    by 0x48EC14C: __vfprintf_internal (vfprintf-internal.c:1263)
+==90255==    by 0x48D779E: printf (printf.c:33)
+==90255==    by 0x1091B3: main (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_01/Resultados/Victor/tadgen/prog)
+==90255==  Uninitialised value was created by a stack allocation
+==90255==    at 0x48D76F4: printf (printf.c:28)
+==90255== 
+==90255== 
+==90255== HEAP SUMMARY:
+==90255==     in use at exit: 0 bytes in 0 blocks
+==90255==   total heap usage: 4 allocs, 4 frees, 8,220 bytes allocated
+==90255== 
+==90255== All heap blocks were freed -- no leaks are possible
+==90255== 
+==90255== For lists of detected and suppressed errors, rerun with: -s
+==90255== ERROR SUMMARY: 94 errors from 21 contexts (suppressed: 0 from 0)

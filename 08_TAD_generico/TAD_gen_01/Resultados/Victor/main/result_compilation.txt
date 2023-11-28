@@ -1,43 +1,13 @@
-cc1: fatal error: Resultados/Victor/main/main.c: No such file or directory
-compilation terminated.
-Resultados/Victor/main/tadgen.c: In function ‘CriaGenerico’:
-Resultados/Victor/main/tadgen.c:16:13: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘Type *’ [-Wformat=]
-   16 |     scanf("%d %d", &gen->tipo, &gen->nElem);
-      |            ~^      ~~~~~~~~~~
-      |             |      |
-      |             int *  Type *
-Resultados/Victor/main/tadgen.c:18:9: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
-   18 |     if (gen->tipo = 1) {
-      |         ^~~
-Resultados/Victor/main/tadgen.c: In function ‘LeGenerico’:
-Resultados/Victor/main/tadgen.c:40:36: warning: dereferencing ‘void *’ pointer
-   40 |             scanf("%d", &gen->vetor[i]);
-      |                                    ^
-Resultados/Victor/main/tadgen.c:40:21: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘void *’ [-Wformat=]
-   40 |             scanf("%d", &gen->vetor[i]);
-      |                    ~^   ~~~~~~~~~~~~~~
-      |                     |   |
-      |                     |   void *
-      |                     int *
-Resultados/Victor/main/tadgen.c:45:37: warning: dereferencing ‘void *’ pointer
-   45 |             scanf("%lf", &gen->vetor[i]);
-      |                                     ^
-Resultados/Victor/main/tadgen.c:45:22: warning: format ‘%lf’ expects argument of type ‘double *’, but argument 2 has type ‘void *’ [-Wformat=]
-   45 |             scanf("%lf", &gen->vetor[i]);
-      |                    ~~^   ~~~~~~~~~~~~~~
-      |                      |   |
-      |                      |   void *
-      |                      double *
 Resultados/Victor/main/tadgen.c: In function ‘ImprimeGenerico’:
-Resultados/Victor/main/tadgen.c:55:36: warning: dereferencing ‘void *’ pointer
-   55 |             printf("%d", gen->vetor[i]);
-      |                                    ^
-Resultados/Victor/main/tadgen.c:55:36: error: invalid use of void expression
-   55 |             printf("%d", gen->vetor[i]);
-      |                          ~~~~~~~~~~^~~
-Resultados/Victor/main/tadgen.c:60:39: warning: dereferencing ‘void *’ pointer
-   60 |             printf("%.2lf", gen->vetor[i]);
-      |                                       ^
-Resultados/Victor/main/tadgen.c:60:39: error: invalid use of void expression
-   60 |             printf("%.2lf", gen->vetor[i]);
-      |                             ~~~~~~~~~~^~~
+Resultados/Victor/main/tadgen.c:52:18: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘void *’ [-Wformat=]
+   52 |         printf("%d", (gen->vetor + i));
+      |                 ~^   ~~~~~~~~~~~~~~~~
+      |                  |               |
+      |                  int             void *
+      |                 %p
+Resultados/Victor/main/tadgen.c:57:20: warning: format ‘%f’ expects argument of type ‘double’, but argument 2 has type ‘void *’ [-Wformat=]
+   57 |         printf("%.2f ", (gen->vetor + i));
+      |                 ~~~^    ~~~~~~~~~~~~~~~~
+      |                    |                |
+      |                    double           void *
+      |                 %.2p

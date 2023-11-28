@@ -8,6 +8,3 @@ Resultados/Victor/completo/aluno.c:31:15: warning: format ‘%[^;’ expects arg
       |            ~~~^          ~~~~~
       |               |          |
       |               char *     char (*)[100]
-Resultados/Victor/completo/vector.c:10:1: warning: useless storage class specifier in empty declaration
-   10 | };
-      | ^

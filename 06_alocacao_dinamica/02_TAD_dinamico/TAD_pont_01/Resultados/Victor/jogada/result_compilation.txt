@@ -1,0 +1,15 @@
+Resultados/Victor/jogada/jogo.c: In function ‘ComecaJogo’:
+Resultados/Victor/jogada/jogo.c:18:29: warning: unused variable ‘jogador2Venceu’ [-Wunused-variable]
+   18 |     int jogador1Venceu = 0, jogador2Venceu = 0;
+      |                             ^~~~~~~~~~~~~~
+Resultados/Victor/jogada/jogo.c:18:9: warning: unused variable ‘jogador1Venceu’ [-Wunused-variable]
+   18 |     int jogador1Venceu = 0, jogador2Venceu = 0;
+      |         ^~~~~~~~~~~~~~
+Resultados/Victor/jogada/tabuleiro.c: In function ‘CriaTabuleiro’:
+Resultados/Victor/jogada/tabuleiro.c:8:9: error: ‘tab’ undeclared (first use in this function)
+    8 |     if (tab == NULL) {
+      |         ^~~
+Resultados/Victor/jogada/tabuleiro.c:8:9: note: each undeclared identifier is reported only once for each function it appears in
+Resultados/Victor/jogada/tabuleiro.c:22:1: warning: control reaches end of non-void function [-Wreturn-type]
+   22 | }
+      | ^

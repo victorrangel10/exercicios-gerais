@@ -1,0 +1,24 @@
+Resultados/Victor/main/agencia.c:12:1: warning: useless storage class specifier in empty declaration
+   12 | };
+      | ^
+Resultados/Victor/main/agencia.c: In function ‘LeAgencia’:
+Resultados/Victor/main/agencia.c:35:18: warning: format ‘%[^
+   ’ expects argument of type ‘char *’, but argument 3 has type ‘char (*)[100]’ [-Wformat=]
+   35 |     scanf("%d;%[^\n]\n", &agencia->numero, &nome);
+      |               ~~~^~                        ~~~~~
+      |                  |                         |
+      |                  char *                    char (*)[100]
+cc1: fatal error: Resultados/Victor/main/banco.c: No such file or directory
+compilation terminated.
+Resultados/Victor/main/conta.c:11:1: warning: useless storage class specifier in empty declaration
+   11 | };
+      | ^
+Resultados/Victor/main/conta.c: In function ‘GetSaldoConta’:
+Resultados/Victor/main/conta.c:51:1: warning: control reaches end of non-void function [-Wreturn-type]
+   51 | }
+      | ^
+cc1: fatal error: Resultados/Victor/main/main.c: No such file or directory
+compilation terminated.
+Resultados/Victor/main/vector.c:10:1: warning: useless storage class specifier in empty declaration
+   10 | };
+      | ^

@@ -1,0 +1,2 @@
+Test Case: Resultados/Victor/jogo/Casos/5
+Valgrind result: allocs: 79 frees: 59 errors: 1 contexts: 1

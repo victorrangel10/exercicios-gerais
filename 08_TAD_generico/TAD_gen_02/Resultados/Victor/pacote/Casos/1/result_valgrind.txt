@@ -1,0 +1,41 @@
+==24681== Memcheck, a memory error detector
+==24681== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==24681== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==24681== Command: Resultados/Victor/pacote/prog Resultados/Victor/pacote/Casos/1
+==24681== Parent PID: 24680
+==24681== 
+==24681== Invalid write of size 4
+==24681==    at 0x48DE149: __vfscanf_internal (vfscanf-internal.c:1896)
+==24681==    by 0x48D9141: __isoc99_scanf (isoc99_scanf.c:30)
+==24681==    by 0x1096D7: LePacote (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_02/Resultados/Victor/pacote/prog)
+==24681==    by 0x1094EB: main (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_02/Resultados/Victor/pacote/prog)
+==24681==  Address 0x0 is not stack'd, malloc'd or (recently) free'd
+==24681== 
+==24681== 
+==24681== Process terminating with default action of signal 11 (SIGSEGV)
+==24681==  Access not within mapped region at address 0x0
+==24681==    at 0x48DE149: __vfscanf_internal (vfscanf-internal.c:1896)
+==24681==    by 0x48D9141: __isoc99_scanf (isoc99_scanf.c:30)
+==24681==    by 0x1096D7: LePacote (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_02/Resultados/Victor/pacote/prog)
+==24681==    by 0x1094EB: main (in /home/victor/exercicios-gerais/08_TAD_generico/TAD_gen_02/Resultados/Victor/pacote/prog)
+==24681==  If you believe this happened as a result of a stack
+==24681==  overflow in your program's main thread (unlikely but
+==24681==  possible), you can try to increase the size of the
+==24681==  main thread stack using the --main-stacksize= flag.
+==24681==  The main thread stack size used in this run was 8388608.
+==24681== 
+==24681== HEAP SUMMARY:
+==24681==     in use at exit: 8,954 bytes in 28 blocks
+==24681==   total heap usage: 29 allocs, 1 frees, 9,034 bytes allocated
+==24681== 
+==24681== LEAK SUMMARY:
+==24681==    definitely lost: 0 bytes in 0 blocks
+==24681==    indirectly lost: 0 bytes in 0 blocks
+==24681==      possibly lost: 0 bytes in 0 blocks
+==24681==    still reachable: 8,954 bytes in 28 blocks
+==24681==         suppressed: 0 bytes in 0 blocks
+==24681== Reachable blocks (those to which a pointer was found) are not shown.
+==24681== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==24681== 
+==24681== For lists of detected and suppressed errors, rerun with: -s
+==24681== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)

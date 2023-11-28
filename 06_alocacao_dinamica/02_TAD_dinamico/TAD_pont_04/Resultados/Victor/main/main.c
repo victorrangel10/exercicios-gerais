@@ -9,7 +9,7 @@ void OrdenaAlunos(tAluno** lista,int tam){
         for (int j = i+1; j < tam-1; j++)
         {
 
-        if (ComparaMatricula(lista[i],lista[j])==-1)
+        if (ComparaMatricula(lista[i],lista[j])==1)
         {
             tAluno * aux = lista[i];
             lista[i]=lista[j];

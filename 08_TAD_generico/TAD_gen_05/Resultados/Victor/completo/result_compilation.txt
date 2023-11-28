@@ -1,11 +1,3 @@
-Resultados/Victor/completo/agendatarefas.c:19:1: warning: no semicolon at end of struct or union
-   19 | };
+Resultados/Victor/completo/tarefaimprime.c:10:1: warning: useless storage class specifier in empty declaration
+   10 | };
       | ^
-cc1: fatal error: Resultados/Victor/completo/main.c: No such file or directory
-compilation terminated.
-cc1: fatal error: Resultados/Victor/completo/tarefaimprime.c: No such file or directory
-compilation terminated.
-cc1: fatal error: Resultados/Victor/completo/tarefamultiplica.c: No such file or directory
-compilation terminated.
-cc1: fatal error: Resultados/Victor/completo/tarefasoma.c: No such file or directory
-compilation terminated.

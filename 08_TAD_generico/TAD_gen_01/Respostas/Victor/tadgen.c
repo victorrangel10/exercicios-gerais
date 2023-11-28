@@ -2,62 +2,59 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 struct generic {
     void* vetor;
     Type tipo;
-    int numBytes;
+    size_t numBytes;
     int nElem;
 };
 
 tGeneric* CriaGenerico(Type type, int numElem) {
     tGeneric* gen = malloc(sizeof(tGeneric*));
 
-    scanf("%d %d", &gen->tipo, &gen->nElem);
+   gen->tipo=type;
 
-    if (gen->tipo = 1) {
+   gen->nElem=numElem;
+
+    if (type == INT) {
         gen->numBytes = sizeof(int);
-    } else
+    } else {
         gen->numBytes = sizeof(float);
+    }
+
+    gen->vetor=malloc((gen->numBytes)*gen->nElem);
+
     return gen;
 }
 
 void DestroiGenerico(tGeneric* gen) {
-    /*for (size_t i = 0; i < gen->nElem; i++)
-    {
-        free(gen->vetor(vetor + i*gen->numBytes));
-    }*/
-
     free(gen->vetor);
     free(gen);
 }
 
 void LeGenerico(tGeneric* gen) {
-    gen->vetor = malloc(gen->nElem * gen->numBytes);
+    printf("\nDigite o vetor:\n");
 
-    if (gen->tipo) {
-        for (size_t i = 0; i < gen->nElem; i++) {
-            scanf("%d", &gen->vetor[i]);
-        }
+    for (size_t i = 0; i < gen->nElem; i++) {
+        if (gen->tipo == FLOAT)
+            scanf("%f", (((float*)gen->vetor) + i));
 
-    } else {
-        for (size_t i = 0; i < gen->nElem; i++) {
-            scanf("%lf", &gen->vetor[i]);
-        }
+        else if (gen->tipo == INT)
+            scanf("%d", (((int*)gen->vetor) + i));
     }
 }
 
-
-void ImprimeGenerico(tGeneric* gen){
+void ImprimeGenerico(tGeneric* gen) {
     if (gen->tipo) {
         for (size_t i = 0; i < gen->nElem; i++) {
-
-            printf("%d", gen->vetor[i]);
+        printf("%d", (gen->vetor + i));
         }
 
     } else {
         for (size_t i = 0; i < gen->nElem; i++) {
-            printf("%.2lf", gen->vetor[i]);
+        printf("%.2f ", (gen->vetor + i));
         }
     }
 }

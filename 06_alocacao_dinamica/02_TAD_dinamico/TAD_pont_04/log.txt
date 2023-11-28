@@ -77,7 +77,7 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Pasta main / Caso 1:
  - Arquivo de output gerado: Resultados/Victor/main/Casos/1/result_valgrind.txt.
  - Valgrind: Ok! allocs: 11, frees: 11, errors: 0.
- - Resultado para o saida.txt: Ok!
+ - Resultado para o saida.txt: Incorreto!
  - Pasta main / Caso 2:
  - Arquivo de output gerado: Resultados/Victor/main/Casos/2/result_valgrind.txt.
  - Valgrind: Ok! allocs: 4, frees: 4, errors: 0.
@@ -85,11 +85,11 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Pasta main / Caso 3:
  - Arquivo de output gerado: Resultados/Victor/main/Casos/3/result_valgrind.txt.
  - Valgrind: Ok! allocs: 23, frees: 23, errors: 0.
- - Resultado para o saida.txt: Ok!
+ - Resultado para o saida.txt: Incorreto!
  - Pasta completo / Caso 1:
  - Arquivo de output gerado: Resultados/Victor/completo/Casos/1/result_valgrind.txt.
  - Valgrind: Ok! allocs: 33, frees: 33, errors: 0.
- - Resultado para o saida.txt: Ok!
+ - Resultado para o saida.txt: Incorreto!
  - Pasta completo / Caso 2:
  - Arquivo de output gerado: Resultados/Victor/completo/Casos/2/result_valgrind.txt.
  - Valgrind: Ok! allocs: 9, frees: 9, errors: 0.
@@ -97,7 +97,7 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Pasta completo / Caso 3:
  - Arquivo de output gerado: Resultados/Victor/completo/Casos/3/result_valgrind.txt.
  - Valgrind: Ok! allocs: 87, frees: 87, errors: 0.
- - Resultado para o saida.txt: Ok!
+ - Resultado para o saida.txt: Incorreto!
 
 #######################################
 RESULTADOS FINAIS
@@ -110,13 +110,13 @@ Nome 0: Victor
  - Linkagens Corretas: 3 de 3 / Nota 10.00
  - Resultados Corretos aluno: 3 de 3 / Nota 10.00
  - Valgrinds Corretos aluno: 3 de 3 / Nota 10.00
- - Resultados Corretos main: 3 de 3 / Nota 10.00
+ - Resultados Corretos main: 1 de 3 / Nota 3.33
  - Valgrinds Corretos main: 3 de 3 / Nota 10.00
- - Resultados Corretos completo: 3 de 3 / Nota 10.00
+ - Resultados Corretos completo: 1 de 3 / Nota 3.33
  - Valgrinds Corretos completo: 3 de 3 / Nota 10.00
- - Soma das notas do Victor: 90.000
+ - Soma das notas do Victor: 76.660
  - Campos Considerados: 9
- - Média do Victor: 10.00
+ - Média do Victor: 8.51
 
 ----------------------------------------------------------------------------
 
