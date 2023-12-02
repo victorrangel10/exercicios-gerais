@@ -1,0 +1,26 @@
+Resultados/Victor/aluno/aluno.c: In function ‘LeAlunos’:
+Resultados/Victor/aluno/aluno.c:42:19: warning: format ‘%[^
+   ’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[100]’ [-Wformat=]
+   42 |         scanf("%[^\n]%*c", &nome);
+      |                ~~~^~       ~~~~~
+      |                   |        |
+      |                   char *   char (*)[100]
+Resultados/Victor/aluno/aluno.c:43:19: warning: format ‘%[^
+   ’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[15]’ [-Wformat=]
+   43 |         scanf("%[^\n]%*c", &data);
+      |                ~~~^~       ~~~~~
+      |                   |        |
+      |                   char *   char (*)[15]
+Resultados/Victor/aluno/aluno.c:44:19: warning: format ‘%[^
+   ’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[100]’ [-Wformat=]
+   44 |         scanf("%[^\n]%*c", &curso);
+      |                ~~~^~       ~~~~~~
+      |                   |        |
+      |                   char *   char (*)[100]
+Resultados/Victor/aluno/main.c: In function ‘main’:
+Resultados/Victor/aluno/main.c:15:5: warning: ‘return’ with no value, in function returning non-void [-Wreturn-type]
+   15 |     return;
+      |     ^~~~~~
+Resultados/Victor/aluno/main.c:6:5: note: declared here
+    6 | int main(){
+      |     ^~~~

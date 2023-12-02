@@ -1,0 +1,3 @@
+/usr/bin/ld: Resultados/Victor/aluno/main.o: in function `main':
+main.c:(.text+0xc7): undefined reference to `ImprimeAlunos'
+collect2: error: ld returned 1 exit status
